@@ -38,7 +38,7 @@ module.exports = {
     ],
   plugins: {
     'sitemap': {
-      hostname: 'https://iolinker.com'
+      hostname: 'https://doc.iolinker.com'
     },
   },
   themeConfig: {

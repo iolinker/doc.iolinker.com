@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:iolinker/iolinker.com.git main:pages
+git push -f git@github.com:iolinker/doc.iolinker.com.git main:pages
 
 cd -
