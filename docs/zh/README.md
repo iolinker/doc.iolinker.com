@@ -22,12 +22,12 @@ features:
 
 ## 下载
 
-- [Mac Apple Silicon](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-darwin-arm64-v1.2.5.tar.gz)
-- [Mac Intel](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-darwin-amd64-v1.2.5.tar.gz)
-- [Linux AMD64](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-linux-amd64-v1.2.5.tar.gz)
-- [Linux ARM64](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-linux-amd64-v1.2.5.tar.gz)
-- [Windows](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-windows-amd64-v1.2.5.tar.gz)
-- [Raspberry PI](https://github.com/iolinker/iolinker.com/releases/download/v1.2.5/iolinker-standalone-linux-armv7-v1.2.5.tar.gz)
+- [Mac Apple Silicon](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-darwin-arm64-v1.2.6.tar.gz)
+- [Mac Intel](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-darwin-amd64-v1.2.6.tar.gz)
+- [Linux AMD64](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-linux-amd64-v1.2.6.tar.gz)
+- [Linux ARM64](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-linux-amd64-v1.2.6.tar.gz)
+- [Windows](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-windows-amd64-v1.2.6.tar.gz)
+- [Raspberry PI](https://github.com/iolinker/iolinker.com/releases/download/v1.2.6/iolinker-standalone-linux-armv7-v1.2.6.tar.gz)
 
 ### Docker
 
