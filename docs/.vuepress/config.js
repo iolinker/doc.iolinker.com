@@ -76,7 +76,9 @@ module.exports = {
                     ['trigger_telegram.md', 'Telegram Bot Trigger'],
                     ['mcp.md', 'MCP Trigger'],
                     ['trigger_error.md', 'Error Trigger'],
-                    ['trigger_rsyslog.md', 'Rsyslog Trigger']
+                    ['trigger_rsyslog.md', 'Rsyslog Trigger'],
+                    ['trigger_kafka.md', 'Kafka Trigger'],
+                    ['trigger_redis.md', 'Redis Trigger']
                 ]
               },
 
@@ -190,7 +192,9 @@ module.exports = {
                     ['/zh/trigger_feishu.md', '飞书机器人触发器'],
                     ['/zh/mcp.md', 'MCP 触发器'],
                     ['/zh/trigger_error.md', '错误触发器'],
-                    ['/zh/trigger_rsyslog.md', 'Rsyslog 触发器']
+                    ['/zh/trigger_rsyslog.md', 'Rsyslog 触发器'],
+                    ['/zh/trigger_kafka.md', 'Kafka 触发器'],
+                    ['/zh/trigger_redis.md', 'Redis 触发器']
                 ]
               },
               {
