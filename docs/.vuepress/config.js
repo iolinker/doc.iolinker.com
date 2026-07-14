@@ -75,7 +75,8 @@ module.exports = {
                     ['trigger_sync.md','Sync API'],
                     ['trigger_telegram.md', 'Telegram Bot Trigger'],
                     ['mcp.md', 'MCP Trigger'],
-                    ['trigger_error.md', 'Error Trigger']
+                    ['trigger_error.md', 'Error Trigger'],
+                    ['trigger_rsyslog.md', 'Rsyslog Trigger']
                 ]
               },
 
@@ -188,7 +189,8 @@ module.exports = {
                     ['/zh/trigger_dingtalk.md', '钉钉机器人触发器'],
                     ['/zh/trigger_feishu.md', '飞书机器人触发器'],
                     ['/zh/mcp.md', 'MCP 触发器'],
-                    ['/zh/trigger_error.md', '错误触发器']
+                    ['/zh/trigger_error.md', '错误触发器'],
+                    ['/zh/trigger_rsyslog.md', 'Rsyslog 触发器']
                 ]
               },
               {
