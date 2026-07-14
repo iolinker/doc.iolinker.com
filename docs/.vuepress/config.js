@@ -279,8 +279,8 @@ module.exports = {
         },
     nav: [
        {
-        text: 'Telegram Channel',
-        link: 'https://t.me/iolinker_com'
+        // text: 'Telegram Channel',
+        // link: 'https://t.me/iolinker_com'
       }
     ],
     
