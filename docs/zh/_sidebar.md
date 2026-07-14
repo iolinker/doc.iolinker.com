@@ -38,5 +38,11 @@
   
 - Database
   - [Database](database.md)
+
+- Data Table
+  - [Query](data_table_query.md)
+  - [Insert](data_table_insert.md)
+  - [Update](data_table_update.md)
+  - [Delete](data_table_delete.md)
   
   

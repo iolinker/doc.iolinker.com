@@ -119,6 +119,16 @@ module.exports = {
                 ]
               },
               {
+                title: 'Data Table',
+                sidebarDepth: 0,
+                children: [
+                    ['data_table_query.md', 'Query'],
+                    ['data_table_insert.md', 'Insert'],
+                    ['data_table_update.md', 'Update'],
+                    ['data_table_delete.md', 'Delete'],
+                ]
+              },
+              {
                 title: 'Bot',   // 必要的
                 sidebarDepth: 0,    // 可选的, 默认值是 1
                 children: [
@@ -217,6 +227,16 @@ module.exports = {
                     ['/zh/json_to_csv.md', 'JSON转CSV文件'],
                     ['/zh/database.md', '数据库操作'],
                     ['/zh/rag.md', 'RAG知识检索'],
+                ]
+              },
+              {
+                title: '数据表',
+                sidebarDepth: 0,
+                children: [
+                    ['/zh/data_table_query.md', '查询'],
+                    ['/zh/data_table_insert.md', '插入'],
+                    ['/zh/data_table_update.md', '更新'],
+                    ['/zh/data_table_delete.md', '删除'],
                 ]
               },
               {
