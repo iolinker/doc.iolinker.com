@@ -10,6 +10,39 @@ meta:
 
 Retrieve relevant knowledge segments from a knowledge base. Supports three search methods: **vector search** (semantic similarity), **keyword search** (full-text matching), and **hybrid search** (combining both). Optionally, AI summarization can be enabled to generate a concise answer from the retrieved documents.
 
+## Creating a Knowledge Base
+
+Before using Knowledge Retrieval, you need to create a knowledge base in the **Knowledge** section. The following configuration is required:
+
+- **Name**: The name of the knowledge base.
+
+- **Description**: A description of the knowledge base.
+
+- **File**: Upload a document file to be indexed. Supported formats include text files.
+
+- **LLM Credential**: Select an LLM API Key credential. The embedding model from this provider will be used to vectorize the document content. You can create an LLM API Key credential in the **Credential** section.
+
+- **Vector Database**: Select the vector database for storing embeddings. The built-in vector database (`builtin-vec-db`) is available by default.
+
+- **Chunk Size**: The maximum size (in characters) of each document chunk. Default is 1024.
+
+- **Chunk Overlap**: The number of overlapping characters between adjacent chunks. Default is 50.
+
+- **Separator**: The separator used to split the document into chunks. Default is `\n\n` (double newline).
+
+- **Top K**: The default number of segments returned during retrieval.
+
+- **Score Threshold**: The minimum relevance score threshold for retrieval results.
+
+When a knowledge base is created, the system will:
+
+1. Split the uploaded document into chunks based on the configured chunk size, overlap, and separator.
+2. Generate embedding vectors for each chunk using the selected LLM provider's embedding model.
+3. Store the vectors in the vector database for semantic search.
+4. Build a full-text index for each chunk to support keyword search.
+
+You can view the chunked segments of a knowledge base at any time, and update or delete the knowledge base as needed.
+
 ## Input
 
 - **Knowledge** (Required): Select the knowledge base to search from. Knowledge bases are created and managed in the **Knowledge** section, where you can upload documents and configure chunking settings.
