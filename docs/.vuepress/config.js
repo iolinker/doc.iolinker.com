@@ -118,7 +118,7 @@ module.exports = {
                     ['write_file.md', 'Write File'],
                     ['json_to_csv.md', 'JSON To CSV'],
                     ['database.md', 'Database'],
-                    ['rag.md', 'RAG Knowledge'],
+                    ['knowledge_retrieval.md', 'Knowledge Retrieval'],
                 ]
               },
               {
@@ -232,7 +232,7 @@ module.exports = {
                     ['/zh/write_file.md', '文件写入'],
                     ['/zh/json_to_csv.md', 'JSON转CSV文件'],
                     ['/zh/database.md', '数据库操作'],
-                    ['/zh/rag.md', 'RAG知识检索'],
+                    ['/zh/knowledge_retrieval.md', '知识检索'],
                 ]
               },
               {
