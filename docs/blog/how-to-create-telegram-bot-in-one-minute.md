@@ -91,7 +91,7 @@ Of course, such a cumbersome implementation method is not within our considerati
 
 ### (1) Download IOLinker and Launch It
 
-Refer to the official documentation: [How to Run IOLinker](https://iolinker.com/how-to-run-iolinker.html)
+Refer to the official documentation: [How to Run IOLinker](https://doc.iolinker.com/how-to-run-iolinker.html)
 
 ### (2) Create Telegram Credential
 
