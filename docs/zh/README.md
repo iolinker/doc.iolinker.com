@@ -7,7 +7,7 @@ actionLink: /zh/how-to-run-iolinker
 
 meta:
   - name: description
-    content: "IOLinker 是面向开发者的轻量级 AI 工作流工具。单文件部署，安装包<100MB，运行内存<100MB，支持 AI 工作台、双执行引擎、多模型接入、多平台 Bot 部署。"
+    content: "IOLinker 是面向开发者的轻量级 AI 工作流工具。单文件部署，安装包<100MB，运行内存<100MB，支持 AI 工作台、双执行引擎、低代码表单、多平台 Bot 部署。"
   - name: keywords
     content: "AI工作流, AI工作台, 双执行引擎, 轻量级, 私有化部署, Telegram机器人, MCP服务器, RAG"
 
@@ -18,12 +18,12 @@ features:
     details: "内置网页 AI 助手，支持流式对话、工具调用、MCP 扩展、知识库检索、技能匹配与定时任务，ReAct 推理链路自主决策。"
   - title: 双执行引擎
     details: "快速引擎纯内存执行毫秒级响应（QPS 100+、平均 RT 约 10ms）；标准引擎持久化存储，支持历史回溯与断点续跑。"
-  - title: 多模型接入
-    details: "兼容 OpenAI、Claude、GLM、DeepSeek、Qwen 等主流模型服务，也支持接入本地模型。"
+  - title: 低代码表单
+    details: "可视化拖拽设计表单，支持文本、数字、日期、文件等丰富字段，一键发布为 API 或嵌入业务流程，让 AI 工作流与人工协作无缝衔接。"
   - title: 多平台 Bot
-    details: 一键接入 Telegram、飞书、钉钉等平台，快速搭建 AI Bot。
-  - title: 知识库 RAG
-    details: 内置向量检索增强生成引擎，上传文档即刻构建专属知识库，让 AI 拥有你的领域知识。
+    details: 一键接入 Telegram、飞书、钉钉、企业微信等平台，快速搭建 AI Bot。
+  - title: 数据管理
+    details: "内置数据表、代码片段、本地文件与知识库管理。上传文档构建专属知识库，让 AI 拥有领域知识；数据表与代码片段支持工作流直接读写，实现数据驱动的自动化。"
 ---
 
 ## 下载
