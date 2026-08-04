@@ -28,12 +28,12 @@ features:
 
 ## 下载
 
-- [Mac Apple Silicon](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-darwin-arm64-v2.1.1.tar.gz)
-- [Mac Intel](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-darwin-amd64-v2.1.1.tar.gz)
-- [Linux AMD64](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-linux-amd64-v2.1.1.tar.gz)
-- [Linux ARM64](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-linux-arm64-v2.1.1.tar.gz)
-- [Windows](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-windows-amd64-v2.1.1.tar.gz)
-- [Raspberry PI](https://github.com/iolinker/iolinker.com/releases/download/v2.1.1/iolinker-standalone-linux-armv7-v2.1.1.tar.gz)
+- [Mac Apple Silicon](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-darwin-arm64-v2.1.2.tar.gz)
+- [Mac Intel](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-darwin-amd64-v2.1.2.tar.gz)
+- [Linux AMD64](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-linux-amd64-v2.1.2.tar.gz)
+- [Linux ARM64](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-linux-arm64-v2.1.2.tar.gz)
+- [Windows](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-windows-amd64-v2.1.2.tar.gz)
+- [Raspberry PI](https://github.com/iolinker/iolinker.com/releases/download/v2.1.2/iolinker-standalone-linux-armv7-v2.1.2.tar.gz)
 
 ### Docker
 
