@@ -74,8 +74,8 @@ module.exports = {
                     ['trigger_async.md','Async API'],
                     ['trigger_sync.md','Sync API'],
                     ['trigger_telegram.md', 'Telegram Bot Trigger'],
-                    ['trigger_dingtalk.md', 'DingTalk Bot Trigger'],
-                    ['trigger_feishu.md', 'Feishu Bot Trigger'],
+                    // ['trigger_dingtalk.md', 'DingTalk Bot Trigger'],
+                    // ['trigger_feishu.md', 'Feishu Bot Trigger'],
                     ['trigger_wecom_aibot.md', 'WeCom AI Bot Trigger'],
                     ['mcp.md', 'MCP Trigger'],
                     ['trigger_error.md', 'Error Trigger'],
@@ -281,12 +281,7 @@ module.exports = {
             ],
           },
         },
-    nav: [
-       {
-        // text: 'Telegram Channel',
-        // link: 'https://t.me/iolinker_com'
-      }
-    ],
+    nav: [],
     
   }
 }
