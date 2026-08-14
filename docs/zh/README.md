@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 专为个人打造的生产级 Agentic 工作流工具
-tagline: 用自然语言对话构建自动化工作流——便携、免安装、跨平台，单机即可运行。AI 自主调用工具、执行命令、读写文件、联网搜索，一切由对话驱动。
+tagline: 用自然语言对话构建自动化工作流——便携、免安装、跨平台，单机即可运行。
 actionText: 快速开始 →
 actionLink: /zh/how-to-run-iolinker
 

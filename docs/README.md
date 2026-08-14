@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Production-Grade Agentic Workflow Tool for Individuals
-tagline: Build automated workflows through natural language conversation—portable, zero-install, cross-platform, runs on a single machine. AI autonomously calls tools, runs commands, reads & writes files, searches the web—everything driven by conversation.
+tagline: Build automated workflows through natural language conversation—portable, zero-install, cross-platform, runs on a single machine.
 actionText: Quick Start →
 actionLink: /how-to-run-iolinker
 
