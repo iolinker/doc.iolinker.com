@@ -1,15 +1,15 @@
 ---
 home: true
-heroText: 开发者的轻量级 AI 工作流工具
-tagline: 不只是对话——AI 自主调用工具、执行命令、读写文件、联网搜索、构建工作流，用自然语言驱动一切。
+heroText: 专为个人打造的生产级 Agentic 工作流工具
+tagline: 用自然语言对话构建自动化工作流——便携、免安装、跨平台，单机即可运行。AI 自主调用工具、执行命令、读写文件、联网搜索，一切由对话驱动。
 actionText: 快速开始 →
 actionLink: /zh/how-to-run-iolinker
 
 meta:
   - name: description
-    content: "IOLinker 是面向开发者的轻量级 AI 工作流工具。单文件部署，安装包<100MB，运行内存<100MB，支持 AI 工作台、双执行引擎、低代码表单、多平台 Bot 部署。"
+    content: "IOLinker 是专为个人打造的生产级 Agentic 工作流工具。单文件部署，安装包<100MB，运行内存<100MB，支持 AI 工作台、双执行引擎、低代码表单、多平台 Bot 部署。"
   - name: keywords
-    content: "AI工作流, AI工作台, 双执行引擎, 轻量级, 私有化部署, Telegram机器人, MCP服务器, RAG"
+    content: "AI工作流, Agentic工作流, AI工作台, 双执行引擎, 私有化部署, Telegram机器人, MCP服务器, RAG"
 
 features:
   - title: 极致轻量

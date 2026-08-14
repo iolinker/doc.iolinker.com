@@ -2,7 +2,7 @@
 
 ![](docs/.vuepress/public/logo.png)
 
-**The most powerful personal AI workflow tool**
+**The most powerful production-grade Agentic workflow tool for individuals**
 
 -  ⚡ Easy To Use.
 

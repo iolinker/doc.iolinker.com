@@ -1,8 +1,8 @@
 <!-- _coverpage.md -->
 
-# BotMan User Guide
+# IOLinker 用户指南
 
-> 💪BotMan usage guide, use botman to create the most powerful automated workflow tool for you.
+> 💪 IOLinker 使用指南 —— 专为个人打造的生产级 Agentic 工作流工具。
 
 
-[Let's Go](./how-to-run-botman.md)
+[开始使用](./how-to-run-iolinker.md)

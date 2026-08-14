@@ -1,15 +1,15 @@
 ---
 home: true
-heroText: Lightweight AI Workflow Tool for Developers
-tagline: More than chat—AI autonomously calls tools, runs commands, reads & writes files, searches the web, builds workflows. Natural language drives everything.
+heroText: Production-Grade Agentic Workflow Tool for Individuals
+tagline: Build automated workflows through natural language conversation—portable, zero-install, cross-platform, runs on a single machine. AI autonomously calls tools, runs commands, reads & writes files, searches the web—everything driven by conversation.
 actionText: Quick Start →
 actionLink: /how-to-run-iolinker
 
 meta:
   - name: description
-    content: "IOLinker is a lightweight AI workflow tool for developers. Single file deployment, <100MB package, <100MB memory. Supports AI Workspace, dual execution engines, low-code forms, and multi-platform Bot deployment."
+    content: "IOLinker is a production-grade Agentic workflow tool built for individuals. Single file deployment, <100MB package, <100MB memory. Supports AI Workspace, dual execution engines, low-code forms, and multi-platform Bot deployment."
   - name: keywords
-    content: "AI workflow, AI workspace, dual execution engine, lightweight, self-hosted, Telegram bot, MCP server, RAG"
+    content: "AI workflow, Agentic workflow, AI workspace, dual execution engine, self-hosted, Telegram bot, MCP server, RAG"
 
 features:
   - title: Ultra Lightweight

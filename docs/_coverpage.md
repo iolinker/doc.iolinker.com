@@ -2,7 +2,7 @@
 
 # IOLinker User Guide
 
-> 💪 IOLinker usage guide, use iolinker to create the most powerful automated workflow tool for you.
+> 💪 IOLinker usage guide — a production-grade Agentic workflow tool built for individuals.
 
 
 [Let's Go](./how-to-run-iolinker.md)
