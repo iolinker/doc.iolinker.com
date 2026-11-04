@@ -1,7 +1,7 @@
 ## Indroduction
 
 - **[Throw Exception]** app can raise exception.
-- **[Error Trigger]** app can catch global error and run error branch.
+- **[Error Trigger]** app listens for errors at the workflow level: it catches errors raised anywhere in its own workflow and runs the error branch. It cannot be the workflow's only trigger — pair it with an entry trigger such as Start.
 
 
 

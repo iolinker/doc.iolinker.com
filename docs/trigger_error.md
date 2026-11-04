@@ -10,7 +10,7 @@ meta:
 
 <img src="./img/error_trigger_menu.png" alt="image-20250513192811512" style="zoom:50%;" />
 
-Globally capture exceptions or errors thrown during the workflow execution. As shown in the figure below, when the error trigger catches an exception during the workflow execution, it can initiate a new exception handling branch to continue the process. Here, the business can independently respond to the captured exception information, such as sending alerts, etc.
+Workflow-level error listening: capture exceptions or errors thrown by any node in this workflow; it does not span workflows. It cannot be the workflow's only trigger — pair it with an entry trigger such as Start. As shown in the figure below, when the error trigger catches an exception during the workflow execution, it can initiate a new exception handling branch to continue the process. Here, the business can independently respond to the captured exception information, such as sending alerts, etc.
 
 <img src="./img/error_trigger_workflow.png" alt="image-20250513195338162" style="zoom:50%;" />
 
