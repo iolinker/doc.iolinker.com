@@ -70,6 +70,7 @@ test('文档减少动画与静态旧入口', async () => {
   assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior), 'auto');
   assert.equal(await page.locator('iframe').evaluate(element => element.clientWidth <= element.parentElement.clientWidth), true);
   await page.goto(`${base}/zh/blog/how-to-create-telegram-bot-in-one-minute.html`);
+  await page.locator('.legacy-note').waitFor();
   assert.ok(await page.locator('.legacy-note').isVisible());
   await page.close();
 });
