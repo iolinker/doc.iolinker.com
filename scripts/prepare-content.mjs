@@ -76,6 +76,10 @@ for (const source of baseline.assets) {
   copied++;
 }
 const logo = path.join(root, '../iolinker.com/logo.png');
-if (!existsSync(logo)) throw new Error('缺少站点品牌图标');
-copyFileSync(logo, path.join(docs, 'public/logo.png'));
+const publishedLogo = path.join(docs, 'public/logo.png');
+if (existsSync(logo)) {
+  copyFileSync(logo, publishedLogo);
+} else if (!existsSync(publishedLogo)) {
+  throw new Error('缺少站点品牌图标');
+}
 console.log(`已准备 ${copied} 项公开图片；敏感及未核实旧素材不会进入发布目录`);
