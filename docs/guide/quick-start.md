@@ -54,5 +54,5 @@ Model providers are usually third parties. Prompts, conversations, retrieved sni
 
 - **No model available:** check model settings, project context and provider configuration. Models are not assumed to be preconfigured.
 - **The task is waiting:** inspect tool authorization, model responses and task status rather than treating elapsed time as success.
-- **A legacy robot menu is missing:** new entries for those triggers are hidden. See [legacy compatibility](legacy).
+- **A legacy robot menu is missing:** new entries for those triggers are hidden from the current node menu.
 - **The package differs from this guide:** guides reflect current source; use the installed package's interface. Not every released package contains these capabilities.

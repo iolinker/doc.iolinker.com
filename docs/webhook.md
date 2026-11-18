@@ -3,15 +3,6 @@ You can use **webhook** app to generate url to call, which will trigger the corr
 
 Besides, when you call the webhook url, you can pass parameters data, and these parameters will be used as the output result of the webhook app in the workflow. So other app in the workflow can reference these json parameters to do other things.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/4KZoe2BvDnY"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
-
 ## Parameter
 The **【Debug Data】** parameter is mainly to facilitate debugging when designing the workflow. For example, you can simulate the json parameters to be passed in the webhook request.
 

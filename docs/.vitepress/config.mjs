@@ -20,8 +20,7 @@ function sidebar(chinese) {
     { text: chinese ? '数据与表单' : 'Data and forms', items: [entry('data-tables', '数据表管理', 'Manage data tables'), entry('forms', '表单与人工协作', 'Forms and human collaboration')] },
     { text: chinese ? '工具扩展' : 'Tool extensions', items: [entry('skills', '公共与专属技能', 'Shared and agent skills'), entry('mcp-tools', 'MCP 工具管理', 'Manage MCP tools'), entry('knowledge', '知识库与检索', 'Knowledge and retrieval')] },
     { text: chinese ? '管理与部署' : 'Administration', items: [entry('administration', '项目、角色与凭证', 'Projects, roles and credentials'), entry('deployment', '部署与能力边界', 'Deployment boundaries')] },
-    { text: chinese ? '节点参考' : 'Node reference', collapsed: true, items: referenceGroups.map(([zh, en, names]) => ({ text: chinese ? zh : en, collapsed: true, items: names.map(name => ({ text: titles[name][chinese ? 0 : 1], link: `${base}${name}` })) })).concat(chinese ? [{ text: '企业平台消息发送', collapsed: true, items: ['send_wechat_work_message', 'send_feishu_bot_message', 'send_dingding_bot_message'].map((name, index) => ({ text: ['企业微信', '飞书', '钉钉'][index], link: `${base}${name}` })) }] : []) },
-    { text: chinese ? '历史兼容' : 'Legacy compatibility', collapsed: true, items: [{ text: chinese ? '旧机器人使用说明' : 'Legacy robot documentation', link: `${base}guide/legacy` }, { text: 'Telegram', link: `${base}trigger_telegram` }, { text: chinese ? '旧机器人案例' : 'Legacy robot example', link: `${base}blog/how-to-create-telegram-bot-in-one-minute` }] }
+    { text: chinese ? '节点参考' : 'Node reference', collapsed: true, items: referenceGroups.map(([zh, en, names]) => ({ text: chinese ? zh : en, collapsed: true, items: names.map(name => ({ text: titles[name][chinese ? 0 : 1], link: `${base}${name}` })) })).concat(chinese ? [{ text: '企业平台消息发送', collapsed: true, items: ['send_wechat_work_message', 'send_feishu_bot_message', 'send_dingding_bot_message'].map((name, index) => ({ text: ['企业微信', '飞书', '钉钉'][index], link: `${base}${name}` })) }] : []) }
   ];
 }
 

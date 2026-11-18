@@ -1,7 +1,5 @@
 # 1 minute create powerful telegram bot😍
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/cGxT9cmANGw" frameborder="0" allowfullscreen></iframe>
-
 ## Step1: Create telegram bot token from [Bot Father]
 
 Please refer to [How to create telegram bot and get token](how_to_create_telegram_bot_and_get_token.md)

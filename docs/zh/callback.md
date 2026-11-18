@@ -27,16 +27,6 @@ meta:
 >> {"response":{"error":{"code":"requestError.repeatedOperation","message":"requestError.repeatedOperation"}}}
 ```
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/FtnGQ510FKs"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
-
 ## 输入
 
 无

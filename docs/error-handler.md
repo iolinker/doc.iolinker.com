@@ -2,10 +2,6 @@
 
 **[Script Task]** app supports catching and handling errors.
 
-
-<iframe width="800" height="600" src="https://www.youtube.com/embed/erjFaHPNCO0" frameborder="0" allowfullscreen></iframe>
-
-
 > The unavailable historical image reference was removed. Follow the written steps and current interface.
 
 ## How to use

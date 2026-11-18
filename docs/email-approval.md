@@ -1,14 +1,6 @@
 ## Indroduction
 **【Email Approval】**app can realize multi-person email approval. 
 
-<iframe 
-    width="1280" 
-    height="720" 
-    src="https://www.youtube.com/embed/wq_7jCd1uFo"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-    </iframe>
-
 The approvers will receive the email content like this.
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.

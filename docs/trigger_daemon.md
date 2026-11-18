@@ -2,8 +2,6 @@
 
 If you want to run long-running daemon processes, and control the number of concurrent processes, you can use Daemon app.
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/dkA3ZZ-SWi0" frameborder="0" allowfullscreen></iframe>
-
 ## How To Use
 
 > Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.

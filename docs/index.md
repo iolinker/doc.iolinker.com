@@ -33,9 +33,6 @@ features:
   - title: Node reference
     details: Look up trigger, logic, tool, data and AI node configuration without losing the task context.
     link: /trigger_start
-  - title: Legacy compatibility
-    details: Existing robot and historical documentation stays available with applicability notes.
-    link: /guide/legacy
 ---
 
 <div class="home-footnote">

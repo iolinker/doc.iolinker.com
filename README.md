@@ -28,9 +28,10 @@ Browser tests expect a development server on `http://127.0.0.1:4174`; set `DOCS_
 ## Content conventions
 
 - Core guides have both `docs/guide/` and `docs/zh/guide/` versions.
-- Existing article paths remain unchanged. Legacy robot tutorials are marked as compatibility references, not new-customer quick starts.
+- Existing node-reference article paths remain unchanged.
+- Legacy robot tutorials are no longer published: the Telegram trigger page, the legacy compatibility note and the one-minute robot example were removed along with their sidebar group, so `compatibility.json` must be pruned when other historical pages are dropped.
 - Download versions are maintained only in the official website's `version.json`.
-- `compatibility.json` records original URLs, referenced images and excluded assets. `security-exclusions.json` records reviewed sensitive media; the originals are not deleted by the migration. All historical article images are withheld until individually reviewed and recaptured; written steps and old URLs remain available.
+- `compatibility.json` records original URLs, referenced images and excluded assets. `security-exclusions.json` records reviewed sensitive media; the originals are not deleted by the migration. All historical article images are withheld until individually reviewed and recaptured.
 - Generated public images and quarantined copies are maintained by `scripts/prepare-content.mjs`. Do not publish quarantined material.
 
 GitHub Actions publishes only after a successful build, using `doc.iolinker.com`. This repository contains no live credentials for deployment.

@@ -12,14 +12,6 @@ meta:
 
 > 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/jXOnAONdr94"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## 入参
 
 无

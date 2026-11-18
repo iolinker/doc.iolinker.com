@@ -4,8 +4,6 @@
 
 By listening to the app through Socket, you can respond to udp and tcp client requests and trigger workflow execution.
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/ro24OHsGIEc" frameborder="0" allowfullscreen></iframe>
-
 ## How To Use
 
 > Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.

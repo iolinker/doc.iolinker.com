@@ -17,10 +17,6 @@
       "url": "/approval.html"
     },
     {
-      "source": "blog/how-to-create-telegram-bot-in-one-minute.md",
-      "url": "/blog/how-to-create-telegram-bot-in-one-minute.html"
-    },
-    {
       "source": "callback.md",
       "url": "/callback.html"
     },
@@ -249,10 +245,6 @@
       "url": "/trigger_sync.html"
     },
     {
-      "source": "trigger_telegram.md",
-      "url": "/trigger_telegram.html"
-    },
-    {
       "source": "trigger_telegram_bot_old.md",
       "url": "/trigger_telegram_bot_old.html"
     },
@@ -283,10 +275,6 @@
     {
       "source": "zh/approval.md",
       "url": "/zh/approval.html"
-    },
-    {
-      "source": "zh/blog/how-to-create-telegram-bot-in-one-minute.md",
-      "url": "/zh/blog/how-to-create-telegram-bot-in-one-minute.html"
     },
     {
       "source": "zh/callback.md",
@@ -479,10 +467,6 @@
     {
       "source": "zh/trigger_sync.md",
       "url": "/zh/trigger_sync.html"
-    },
-    {
-      "source": "zh/trigger_telegram.md",
-      "url": "/zh/trigger_telegram.html"
     },
     {
       "source": "zh/trigger_wecom_aibot.md",

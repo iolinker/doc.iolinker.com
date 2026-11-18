@@ -12,14 +12,6 @@ Supports sending messages in various formats, including text, images, files, and
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/FzeWsT5-ox4"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.

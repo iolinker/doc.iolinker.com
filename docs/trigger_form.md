@@ -12,16 +12,6 @@ The workflow execution is triggered by submitting the form.
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/5vBL8UMtTJ0"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
-
 ### Steps
 
 #### 1. Create Form

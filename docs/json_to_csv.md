@@ -19,15 +19,6 @@ The successfully written files can be viewed in [Local File] under [File Managem
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/NU_r3PXgsC0"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.

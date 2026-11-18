@@ -46,7 +46,7 @@ for (const width of [375, 768, 1440]) {
   });
 }
 
-test('文档本地搜索与历史提示', async () => {
+test('文档本地搜索与语言切换', async () => {
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
   await page.goto(`${base}/zh/guide/skills.html`);
   await page.locator('.DocSearch-Button').click();
@@ -54,9 +54,6 @@ test('文档本地搜索与历史提示', async () => {
   await page.locator('.VPLocalSearchBox .result').first().waitFor();
   assert.ok(await page.locator('.VPLocalSearchBox .result').count() > 0);
   await page.keyboard.press('Escape');
-  await page.goto(`${base}/zh/trigger_telegram.html`);
-  assert.match(await page.locator('.legacy-note').textContent(), /历史兼容文档/);
-  assert.equal(await page.locator('img[src*="credential"]').count(), 0);
   await page.goto(`${base}/zh/guide/schedules.html`);
   await page.locator('.VPNavBarTranslations button').click();
   const english = page.locator('.VPNavBarTranslations a').filter({ hasText: 'English' });
@@ -64,13 +61,10 @@ test('文档本地搜索与历史提示', async () => {
   await page.close();
 });
 
-test('文档减少动画与静态旧入口', async () => {
+test('文档减少动画', async () => {
   const page = await browser.newPage({ reducedMotion: 'reduce' });
   await page.goto(`${base}/zh/trigger_form.html`);
   assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior), 'auto');
-  assert.equal(await page.locator('iframe').evaluate(element => element.clientWidth <= element.parentElement.clientWidth), true);
-  await page.goto(`${base}/zh/blog/how-to-create-telegram-bot-in-one-minute.html`);
-  await page.locator('.legacy-note').waitFor();
-  assert.ok(await page.locator('.legacy-note').isVisible());
+  assert.equal(await page.locator('iframe').count(), 0);
   await page.close();
 });

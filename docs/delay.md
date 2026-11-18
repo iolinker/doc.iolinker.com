@@ -12,15 +12,6 @@ You can set a delay for a specified amount of time (in seconds) before continuin
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/0eBUO_7ptG4"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 ### Seconds

@@ -16,14 +16,6 @@ Successfully written files can be viewed under **File Management** in the **Loca
 
 The previous screenshot referenced an unavailable author-local file. Check the current **File Management > Local File** page for the resulting entry.
 
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/irENExYvvJM"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
@@ -36,14 +28,6 @@ The name of the saved file, for example: `test.txt`.
 ### Encoding
 
 Currently, UTF-8 encoding format is supported.
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/qaK4fCVEfmg"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
 
 ### Operations
 

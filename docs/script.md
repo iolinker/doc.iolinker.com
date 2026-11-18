@@ -12,14 +12,6 @@ Supports executing Python, JavaScript, PHP, Golang, LUA, and Shell scripts using
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/LxraU4m-7i0"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
@@ -29,13 +21,6 @@ Supports executing Python, JavaScript, PHP, Golang, LUA, and Shell scripts using
 > Local Native Virtual Machine
 
 - Python3
-- <iframe 
-      width="800" 
-      height="600" 
-      src="https://www.youtube.com/embed/0eBUO_7ptG4"  frameborder="0" 
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-  </iframe>
 - PHP
 - LUA
 - SHELL

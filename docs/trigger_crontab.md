@@ -17,16 +17,6 @@ The created workflows can be found under the **【Workflow List】** or **【Cro
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/7i9KbcuhgQs"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
-
 ## Input
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.

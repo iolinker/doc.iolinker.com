@@ -12,14 +12,6 @@ Select the branch with the shortest path (the one that finishes execution first)
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/KzndyA9TIwI"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
 ## Input
 
 None

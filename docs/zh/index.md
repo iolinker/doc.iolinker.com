@@ -33,9 +33,6 @@ features:
   - title: 节点参考
     details: 查询触发器、逻辑、工具、数据与 AI 节点的配置细节。
     link: /zh/trigger_start
-  - title: 历史兼容
-    details: 保留已有机器人和历史文档，明确当前入口状态与适用条件。
-    link: /zh/guide/legacy
 ---
 
 <div class="home-footnote">

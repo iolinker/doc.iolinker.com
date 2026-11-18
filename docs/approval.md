@@ -26,16 +26,6 @@ By clicking on the approval details, you can view the complete content and actio
 
 > Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-
-<iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/vjKWLpJLr7c"  frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
-
 ## Input
 
 ### Approval Channels
