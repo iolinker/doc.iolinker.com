@@ -10,7 +10,7 @@ meta:
 
 Supports inputting SQL statements to perform operations such as adding, deleting, modifying, and querying data in the database.
 
-<img src="./img/database_menu.png" alt="image-20241013095858540" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 <iframe 
     width="800" 
@@ -21,10 +21,9 @@ Supports inputting SQL statements to perform operations such as adding, deleting
 </iframe>
 
 
-
 ## Input
 
-<img src="./img/database_input.png" alt="image-20241013095924146" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - ### Credentials
 
@@ -36,8 +35,7 @@ Supports inputting SQL statements to perform operations such as adding, deleting
   - **Password:** The database password.
   - **Encoding:** The encoding format for reading and writing to the database, default is UTF-8.
 
-<img src="./img/database_cred.png" alt="image-20241013100011345" style="zoom:67%;" />
-
+> The original image contained a credential, token or application identifier and is excluded from publication. Create and enter your own secret in the local configuration.
 
 
 ### Database Types
@@ -49,11 +47,9 @@ Currently, the following database types are supported:
 - SQL Server
 
 
-
 ### SQL Statements
 
 Basic CRUD (Create, Read, Update, Delete) commands are supported, including `SELECT`, `UPDATE`, `DELETE`, and `INSERT` statements.
-
 
 
 ## Output
@@ -80,6 +76,3 @@ Basic CRUD (Create, Read, Update, Delete) commands are supported, including `SEL
       "RowAffected": 1
   }
   ```
-
-
-

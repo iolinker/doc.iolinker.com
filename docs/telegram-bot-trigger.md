@@ -15,19 +15,18 @@ You can use **telegram bot trigger** app to receive bot message from group(the t
 
 First, you can use Telegram App or Telegram Client to create your bot with official BotFather bot.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314084933771.png" alt="image-20210314084933771" style="zoom:40%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 In **BotFather**, you can use ```/newbot``` command to create you own bot in seconds. After that, you will get you bot link and token.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314085227035.png" alt="image-20210314085227035" style="zoom:33%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
-
-![image-20210314085722842](https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314085722842.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Back in RobinFlow, you can use the telegram token created before to create **【Telegram Credential】**, which will use in **【Telegram Bot Trigger】**.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314084335126.png" alt="image-20210314084335126" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### (2) Telegram Bot Trigger App
 
@@ -51,5 +50,4 @@ You can monitor chat message(from group or private user) with specific keywords,
 
 The **【DebugData】** parameter is mainly to facilitate debugging when designing the workflow.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314091020328.png" alt="image-20210314091020328" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

@@ -4,7 +4,7 @@
 
 如下，创建一个简单的工作流，用于响应公众号发送的消息，这里我们只是简单的回复：你好。
 
-<img src="./img/wechat_official_account_workflow.png" alt="wechat_official_account_workflow" title="创建微信公众号工作流" style="zoom:67%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 配置微信公众号开发信息
 
@@ -13,13 +13,13 @@
 - AppID：开发者ID。
 - AppSecret：开发者密钥。
 
-<img src="./img/get_wechat_official_account_config.png" alt="get_wechat_official_account_config" title="配置微信公众号开发信息" style="zoom:80%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 拿到上面的AppID和AppSecret后，打开Botman创建【微信公众号】类型的凭据，输入上面的AppID和AppSecret。
 
 同时，该页面会自动生成**Token**、**EncodingAESKey**和**回调地址**，把这两个信息配置到公众号【基本配置】下的【服务器配置】选项里的**令牌(Token)、消息加解密钥(EncodingAESKey)**和**服务器地址(URL)**，消息加密方式使用**安全模式**。最后点击保存即可。
 
-<img src="./img/wechat_official_account_credential.png" alt="wechat_official_account_credential" title="微信公众号凭据配置" style="zoom:80%;" />
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 ### 配置响应消息
 
@@ -27,23 +27,20 @@
 
 - Text：文本。
 
-  <img src="./img/wechat_official_account_resp_text.png" alt="wechat_official_account_resp_text" title="配置响应消息" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - Image：图片。
 
   点击上传小于200KB的图片。
 
-  <img src="./img/wechat_official_account_resp_image.png" alt="wechat_official_account_resp_image" title="微信公众号图片消息" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - Text+Image：图文。
 
-  <img src="./img/wechat_official_account_resp_text_image.png" alt="wechat_official_account_resp_text_image" title="微信公众号图文消息" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - Exec Workflow：下拉可以选择启用的微信公众号触发器工作流。
 
   注意：由于微信官方要求，对于公众号发送的消息，必须要在5秒内响应回复，所以工作流这里在发送公众号消息之前不能做耗时的业务操作。
 
-  <img src="./img/wechat_official_account_resp_workflow.png" alt="wechat_official_account_resp_workflow" title="微信公众号触发工作流" style="zoom: 50%;" />
-
-
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。

@@ -1,13 +1,11 @@
 
 
 
-
 ## Indroduction
 
 The telegram bot trigger supports setting keywords to respond.
 
-![image-20230819085314753](./img/bot-9.png)
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## How To Use
@@ -18,46 +16,39 @@ If the **[Default Cred]** switch is enabled, then there is no need to manually s
 
 **Remark**: how to create telegram bot and get access token , please refer to [How to create telegram bot and get token](how_to_create_telegram_bot_and_get_token.md)
 
-![image-20230818233226553](./img/bot-1.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 If enable the **[Default Cred]** above, then no need manually select.
 
-![image-20230818234522834](./img/bot-3.png)
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### 2. Configure [Message Type]
 
-<img src="./img/bot-4.png" alt="image-20230818234828100" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - Text 
 
   Set specific keywords to respond, such as **/start** or **help**, etc.
 
-  <img src="./img/bot-5.png" alt="image-20230818235321845" style="zoom:33%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - Event
   - Enter Group Event
   - Exit Group Event
 
-<img src="./img/bot-6.png" alt="image-20230818235515298" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### 3. Configure **[Monitor Users]**
 
 If it is not set by default, any user's message to the telegram robot will trigger a response as long as it hits the rule.
 
 
-
 If you only want the robot's command response to be used only by yourself, you can select your own account from the drop-down list.
 
 Remark: Please remember to associate your userid and admin account on telegram: [How to get telegram userid and associate it to admin account](how_to_get_telegram_userid_by_iolinker.md)
 
-<img src="./img/bot-13.png" alt="image-20230819094246908" style="zoom:50%;" />
-
-
-
-
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### 4. Configure [Keyword]
@@ -74,14 +65,12 @@ Remark: Please remember to associate your userid and admin account on telegram: 
 
   You can match the message sent by the user by configure a regular expression, as long as it hits, the workflow will be triggered to response.
 
-<img src="./img/bot-7.png" alt="image-20230819000750728" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### 5. Set [Debug Data]
 
 [Debug Data] is used to simulate the parameters passed by user message, which is for easy debugging.
-
 
 
 ### 6. Demo [Exact Match Text]
@@ -90,26 +79,25 @@ Remark: Please remember to associate your userid and admin account on telegram: 
 
 This is the telegram bot we created.
 
-![image-20230819085156788](./img/bot-8.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### 6.2 Enable telegram bot workflow
 
 You can enable it in [ChatBot List] or in [Workflow List] page.
 
-![image-20230819085314753](./img/bot-9.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### 6.3 Send message to telegram bot in telegram app
 
 
-
-<img src="./img/bot-10.png" alt="image-20230819085507244" style="zoom:33%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### 6.4 Find the execution detail
 
 You can see the execution in [Execution List], and the message sent by user.
 
-![image-20230819085628273](./img/bot-11.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 > The user messages that meet the matching rules pulled from the telegram api will be used as the output of the **[Telegram Bot Trigger]** app.
 
-<img src="./img/bot-12.png" alt="image-20230819085800301" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

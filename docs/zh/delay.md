@@ -10,7 +10,7 @@ meta:
 
 可设置延时一定时间后再继续执行（秒）。
 
-<img src="./img/delay.png" alt="delay" title="延时执行" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -21,13 +21,11 @@ meta:
 </iframe>
 
 
-
 ## 入参
 
 ### 秒
 
 设置过多少秒后再执行。
-
 
 
 ## 出参

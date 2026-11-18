@@ -20,5 +20,4 @@ Which device to simulate.
 
 Target url to screenshot.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314205346251.png" alt="image-20210314205346251" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

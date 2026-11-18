@@ -10,8 +10,7 @@ meta:
 
 可抛出异常，导致工作流出错误停止运行。
 
-<img src="./img/throw_exception.png" alt="throw_exception" title="抛出异常" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 输入
@@ -21,15 +20,13 @@ meta:
 异常标题
 
 
-
 ### 内容
 
 异常详细内容
-
 
 
 ## 输出
 
 无。错误信息会在【错误】板块输出。
 
-<img src="./img/throw_exception_output.png" alt="throw_exception_output" title="抛出异常输出" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。

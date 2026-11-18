@@ -10,11 +10,11 @@ meta:
 
 支持发送POST或GET请求，调用外部API服务。
 
-<img src="./img/api_request.png" alt="api_request" title="api请求" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ## 入参
 
-<img src="./img/api_request_input_parameter.png" alt="api_request_input_parameter" title="api请求配置" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 地址
 
@@ -45,7 +45,6 @@ POST方法的请求体，一般用JSON字符串表示，例如：
 可设置HTTP调用的超时时间，默认是10秒。
 
 
-
 ## 出参
 
 出参返回的是HTTP的响应包各个字段，如下：
@@ -65,7 +64,6 @@ POST方法的请求体，一般用JSON字符串表示，例如：
 ### header
 
 响应体Header。
-
 
 
 ```json
@@ -92,6 +90,3 @@ POST方法的请求体，一般用JSON字符串表示，例如：
     }
 }
 ```
-
-
-

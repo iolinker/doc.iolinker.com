@@ -10,12 +10,11 @@ meta:
 
 通过人工方式触发工作流执行，一般用来调试使用。
 
-<img src="./img/trigger_start.png" alt="trigger_start" title="手动触发器" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ## 入参
 
 无
-
 
 
 ## 出参

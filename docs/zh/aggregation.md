@@ -10,7 +10,7 @@ meta:
 
 等待指定的前置并行分支运行结束后才继续往下执行，要跟【并行分支】APP搭配一起使用。
 
-<img src="./img/parallel_aggregation.png" alt="parallel aggregation" title="并行汇聚" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -35,12 +35,6 @@ meta:
   需要等待前置的指定分支都运行完，才可以继续往下执行
 
 
-
 ## 出参
 
 无
-
-
-
-
-

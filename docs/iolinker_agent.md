@@ -7,7 +7,6 @@ meta:
 ---
 
 
-
 ## IOLinker Agent
 
   <iframe 
@@ -24,76 +23,67 @@ meta:
 
 Create an LLM API key credential in **App Development > Credential**. Currently supported LLM models include: Deepseek, Doubao, Kimi, OpenAI, Qwen, and the open-source Ollama.
 
-<img src="./img/create_llm_cred.png" alt="image-20251113202455377" style="zoom:50%;" />
+> The original image contained a credential, token or application identifier and is excluded from publication. Create and enter your own secret in the local configuration.
 
 ### Configure IOLinker Agent
 
 Here you can use it in combination with the Telegram trigger. You can send messages to the Agent via Telegram, and the app will deliver the Agent's processing results back to the user through Telegram messages.
 
-<img src="./img/iolinker_agent_workflow.png" alt="image-20251112133000710" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Test IOLinker Agent
 
 We can open the configured Telegram bot and interact with it directly. For example, if you ask it "What can you do?", it will provide a response message based on the current environment and the external tools it can utilize. Each reply from the bot generates an execution record in the `Execution List`.
 
-<img src="./img/test_iolinker_agent_demo1.png" alt="image-20251113093422232" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
-
-<img src="./img/test_iolinker_agent_demo_2.png" alt="image-20251113191653061" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Double-clicking the app will display the current app's output.
 
-<img src="./img/test_iolinker_agent_demo_3.png" alt="image-20251113191740159" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Right-click to view the conversation history:
 
-<img src="./img/view_iolinker_chat_history_menu.png" alt="image-20251113192115233" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
-
-<img src="./img/view_iolinker_chat_history.png" alt="image-20251113203333055" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Tool call
 
 When we want to check the weather, the Agent finds a corresponding MCP tool, which automatically plans the request parameters and initiates the call.
 
-<img src="./img/iolinker_agent_use_mcp_tool.png" alt="image-20251113200520957" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
-
-<img src="/Users/shuwoom/Desktop/iolinker.com/docs/img/iolinker_agent_use_mcp_tool2.png" alt="image-20251201133224900" style="zoom:50%;" />
+The previous second screenshot referenced an unavailable author-local file. Use the preceding tool-call image and the current conversation interface as the reference.
 
 Since the Agent invoked MCP tools, in addition to the Agent's execution records, there is also an MCP execution record here.
 
-<img src="./img/iolinker_agent_call_tool_execution_list.png" alt="image-20251113200600376" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 We can view the complete interaction process between the Agent and the user in the execution details, as well as observe how it reasons and invokes tools.
 
-<img src="./img/iolinker_agent_mcp_execution_detail.png" alt="image-20251113200731660" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Input
 
-<img src="./img/iolinker_agent_input_part1.png" alt="image-20251113192348344" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### API Key
 
 You can choose to create an LLM API key in **App Development > Credential**.
 
 
-
 ### Model
 
 The system will return a list of supported models based on the currently selected LLM vendor platform type. If a model is not in the returned drop-down list, you can enter it directly in the edit box.
-
 
 
 ### Framework
@@ -127,13 +117,11 @@ The workflow of ReAct follows a typical loop, which can be summarized into the f
 The cycle then continues: the AI engages in **a new round of reasoning** based on all available information (the original question + newly observed results), decides on the next action, and repeats this process until it determines there is sufficient information to provide a final answer.
 
 
-
 ### Max Iteration
 
 Set the maximum number of cycles for the Agent based on the ReAct framework, i.e., limit the number of `Thought → Action → Observation`loops to prevent the Agent from falling into an endless loop.
 
-<img src="./img/iolinker_agent_input_part2.png" alt="image-20251113193213327" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### System Message
@@ -141,11 +129,9 @@ Set the maximum number of cycles for the Agent based on the ReAct framework, i.e
 Define the AI Agent's "persona," role, behavioral guidelines, and conversational boundaries.
 
 
-
 ### User Message
 
 Assign a specific task instruction to the Agent.
-
 
 
 ### Output Format
@@ -156,21 +142,17 @@ Set the string output format for the Agent.
 - **Markdown**: Converts the aforementioned XML markup into Markdown format.
 
 
-
 ### Enable per-round output
 
 Once enabled, the Agent's thought process will be output in each ReAct iteration. If it's a Telegram trigger, a Telegram message will be sent.
 
 
-
-<img src="./img/iolinker_agent_input_part3.png" alt="image-20251113193643440" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### MCP Tools
 
-Here, you can select the MCP Server tools created by the [MCP trigger](https://iolinker.com/mcp.html) from the workflow list. Once checked, the Agent will analyze the task and choose the corresponding tools to invoke accordingly.
-
+Here, you can select the MCP Server tools created by the [MCP trigger](https://doc.iolinker.com/mcp.html) from the workflow list. Once checked, the Agent will analyze the task and choose the corresponding tools to invoke accordingly.
 
 
 ### Built-in Tools
@@ -234,15 +216,13 @@ Here are the built-in tools provided by the system. Users can select them as nee
   ```
 
 
-
-<img src="./img/agent_memory.png" alt="image-20251113204843572" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Conversation History
 
 - When the historical conversation feature is enabled, the Agent can achieve memory functionality, enabling coherent dialogues.
   - **Conversation Rounds**: Loads the most recent n turns of historical conversation records, with a maximum of 1000 turns loadable.
   - **Conversation Time(Minute)**: Loads historical conversation records from the most recent n minutes, with records from up to 10 days ago being loadable.
-
 
 
 ## Output
@@ -264,4 +244,3 @@ Here are the built-in tools provided by the system. Users can select them as nee
     }
 ]
 ```
-

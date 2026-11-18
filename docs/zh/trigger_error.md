@@ -8,11 +8,11 @@ meta:
 
 ## 错误触发器
 
-<img src="./img/error_trigger_menu.png" alt="error_trigger_menu" title="错误触发器" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 工作流级错误监听：捕获本工作流运行过程中任意节点抛出的异常或错误，不跨工作流。它不能单独作为工作流的触发器，需与入口触发器（如开始触发器）同时存在。如下图，错误触发器在捕获到工作流执行过程中的异常后，可以发起行的异常处理分支继续执行。这里业务可以自己对捕获到的异常信息进行响应处理，例如发送告警等。
 
-<img src="./img/error_trigger_workflow.png" alt="image-20250513192955007" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -27,12 +27,11 @@ meta:
 无
 
 
-
 ## 出参
 
 输出信息会显示是工作流哪个节点，在什么时候，发生了什么错误。
 
-<img src="./img/error_trigger_output.png" alt="error_trigger_output" title="错误触发器输出" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ```json
 [
@@ -47,4 +46,3 @@ meta:
   }
 ]
 ```
-

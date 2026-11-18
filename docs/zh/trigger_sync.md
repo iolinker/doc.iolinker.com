@@ -10,13 +10,13 @@ meta:
 
 Create an HTTP service API interface through visual orchestration that supports parallel execution, convergence, loops, and other operations within workflows. Calling this interface triggers workflow execution, waits for the workflow to complete, and returns output results.
 
-<img src="./img/trigger_sync_api.png" alt="trigger_sync_api" title="同步API触发器" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 创建的工作流可以在【流程管理】下的【工作流列表】或【API列表】找到。
 
 注意：API只有启用后才能正常使用，否则会提示报错接口未启用。
 
-<img src="./img/api-list.png" alt="api-list" title="同步API列表" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -28,15 +28,14 @@ Create an HTTP service API interface through visual orchestration that supports 
 
 ## 入参
 
-<img src="./img/sync_api_input_parameter.png" alt="sync_api_input_parameter" title="同步API触发器配置" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 鉴权认证
 
 目前支持一下三种鉴权方式：
 
-<img src="./img/sync_api_input_login_verification.png" alt="sync_api_input_login_verification" title="同步API鉴权" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - 没有鉴权
 
@@ -93,11 +92,9 @@ Create an HTTP service API interface through visual orchestration that supports 
 API模块主要用来对接口进行分类，例如可以按照产品分不同的模块。
 
 
-
 ### API方法
 
 模块下的接口名称。
-
 
 
 ### API方法
@@ -105,11 +102,9 @@ API模块主要用来对接口进行分类，例如可以按照产品分不同�
 目前支持GET和POST两种方法。
 
 
-
 ### 调试数据
 
 模拟用户请求接口是传递的POST参数，方便用户调试接口。
-
 
 
 ## 输出
@@ -147,4 +142,3 @@ API模块主要用来对接口进行分类，例如可以按照产品分不同�
     }
 }
 ```
-

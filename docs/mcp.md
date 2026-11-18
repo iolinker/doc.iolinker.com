@@ -14,16 +14,16 @@ The development of an MCP Server requires the combined use of two apps: the MCP 
 
 The MCP Trigger selects the corresponding routing branch to execute the tool app based on the tool name requested by the client.
 
-<img src="./img/mcp_server_workflow.png" alt="image-20251112092946039" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 After creating the MCP Server workflow, you can view its address in the [Workflow List]. Once you obtain the address, you can configure and use the MCP Server in third-party clients such as Cherry Studio and Cline.
 
-<img src="./img/mcp_server_url.png" alt="image-20251112094933580" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Configure MCP Server on the client side.
 
 The following is the list of tools queried after Cline establishes a connection with the MCP Server:
-<img src="./img/set_mcp_server_in_cline.png" alt="image-20251114091755366" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 After Cline establishes a connection with the MCP Server, it queries the list of tools. Here, you can see the correspondence between the tool list and the workflows.
 
@@ -31,29 +31,25 @@ After Cline establishes a connection with the MCP Server, it queries the list of
 ### Call MCP Server
 After selecting the MCP tool in Cline, when we ask the large language model "What is the temperature in New York?", the model will choose the appropriate tool from the tool list based on the request, retrieve the result, and return it to the user, as shown in the figure below:
 
-<img src="./img/mcp_server_use_in_cline.png" alt="image-20251114092449593" style="zoom:50%;" />
-
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### View Execution Records
 
 After the large language model calls the MCP Server above, we can check the corresponding execution record details in the 【Execution List】 section of the workflow platform:
 
-<img src="./img/mcp_server_execution_list.png" alt="image-20251112095842224" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## MCP Trigger
 
 ### Input
 
-<img src="./img/mcp_trigger_input.png" alt="image-20251112093126418" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### Name
 
 Set the name of the current MCP Server.
-
 
 
 #### Debug
@@ -73,9 +69,6 @@ When developing an MCP Server, you can simulate the request parameters sent by t
     }
 }
 ```
-
-
-
 
 
 ### Output
@@ -99,12 +92,11 @@ The output parameters mainly display the complete request parameters passed by t
 ```
 
 
-
 ## MCP Tool
 
 ### Input
 
-<img src="./img/mcp_tool_input.png" alt="image-20251112093857593" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### Name
 The name set here is for the MCP tool. Once configured, it will be displayed in third-party client tools.
@@ -142,7 +134,6 @@ Configure the input parameter format for the MCP tool. This JSON format is imple
 ```
 
 
-
 ### Output
 
 The output primarily displays the tool parameters passed by the MCP client. For example, as shown below:
@@ -162,4 +153,3 @@ The output primarily displays the tool parameters passed by the MCP client. For 
     }
 ]
 ```
-

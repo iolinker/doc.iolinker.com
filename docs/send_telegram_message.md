@@ -10,7 +10,7 @@ meta:
 
 Supports sending messages in various formats, including text, images, files, and GIFs.
 
-<img src="./img/send-telegram-msg-menu.png" alt="image-20241013162338558" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 <iframe 
     width="800" 
@@ -22,12 +22,11 @@ Supports sending messages in various formats, including text, images, files, and
 
 ## Input
 
-<img src="./img/send-telegram-msg-input-parameter.png" alt="image-20241013162426835" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Credential
 
 You need to first create the necessary credentials in **App Development > Credential**.
-
 
 
 ### ChatId
@@ -36,8 +35,7 @@ The recipient of the message should be specified by their Telegram ID. To find y
 
 Bot Address：[@userinfobot](https://telegram.me/userinfobot)
 
-<img src="./zh/img/send-telegram-msg-get-chatid.png" alt="image-20240921100823129" style="zoom: 33%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Message Type
@@ -54,14 +52,12 @@ Currently, the following types are supported:
 Selecting different message types requires different input content. For example, the Text type will be associated with a text input box.
 
 
-
 ### Parse Mode
 
 Currently, the following types are supported:
 
 - Html
 - Markdown
-
 
 
 ### Wait For Reply
@@ -77,7 +73,6 @@ Wait until the message is received before continuing to execute.
   Set the prompt message sent when the wait timeout
 
 
-
 ## Output
 
 If the send is successful, the result will display "ok."
@@ -89,4 +84,3 @@ If the send is successful, the result will display "ok."
     "result": "ok"
 }
 ```
-

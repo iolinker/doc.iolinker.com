@@ -10,7 +10,7 @@ meta:
 
 Forcefully terminate the currently running workflow. When execution reaches this node, if any APPs are still running, they will also be forcibly stopped.
 
-<img src="./img/stop_execution.png" alt="image-20241007222038642" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 <iframe 
     width="800" 
@@ -23,7 +23,6 @@ Forcefully terminate the currently running workflow. When execution reaches this
 ## Input
 
 None
-
 
 
 ## Output

@@ -10,14 +10,12 @@ meta:
 
 不执行任何操作，一般用于调试。
 
-<img src="./img/do_nothing_menu.png" alt="do nothing menu" title="空操作按钮" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 入参
 
 无
-
 
 
 ## 出参

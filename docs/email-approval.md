@@ -11,36 +11,35 @@
 
 The approvers will receive the email content like this.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314165824781.png" alt="image-20210314165824781" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 When approver make a decision, such as aggre or disagree, he or she will get the corresponding operation introduction, like this.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314170020251.png" alt="image-20210314170020251" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Besides, you can see the approval progress:
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314170424067.png" alt="image-20210314170424067" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Finally, the **Email Approval App** will choose three(true/false/timeout) branches according to the results of the approval, and continue to execute the subsequent.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314170724870.png" alt="image-20210314170724870" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Parameter
 
 ### SMTP credential
 
-![image-20210314154228246](https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314154228246.png)
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 You can use outlook,gmail smtp settings. For example, Gmail SMTP setup settings:
 
 - **SMTP username:** Your Gmail address
 - **SMTP password:** Application specific password required ([Sign in with App Passwords](https://support.google.com/mail/answer/185833?hl=en))
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314163950647.png" alt="image-20210314163950647" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314165703263.png" alt="image-20210314165703263" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - **SMTP server address:** smtp.gmail.com
 - **Gmail SMTP port (TLS):** 587
@@ -48,10 +47,9 @@ You can use outlook,gmail smtp settings. For example, Gmail SMTP setup settings:
 - **SMTP TLS/SSL required:** yes
 
 
-
 ### Email Approval App
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314164451263.png" alt="image-20210314164451263" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 > Sender Cred
 
@@ -89,10 +87,10 @@ There are 3 modes:
 
 The name shown in the email content.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314165824781.png" alt="image-20210314165824781" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 > Timeout
 
 Maximum waiting time for **Email Approval App** to execute. When this time is exceeded, it will choose the middle timeout branch.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314170724870.png" alt="image-20210314170724870" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

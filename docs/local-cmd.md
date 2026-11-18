@@ -22,5 +22,4 @@ Local command tools.
 
 The maximum execution time of command tools.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314200451881.png" alt="image-20210314200451881" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

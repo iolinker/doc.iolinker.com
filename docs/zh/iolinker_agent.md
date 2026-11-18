@@ -22,76 +22,66 @@ meta:
 
 在【应用开发】>【凭据管理】创建一个LLM API密钥凭据，目前LLM大模型支持包括：Deepseek、豆包、Kimi、OpenAI、千问以及开源的Ollama。
 
-<img src="./img/create_llm_cred.png" alt="image-20251112132405822" style="zoom:50%;" />
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 ### 配置IOLinker Agent
 
 这里可以结合Telegram触发器一起使用，可以通过Telegram发送消息给Agent，并通过Telegram消息发送APP反馈Agent的处理结果给用户。
 
-<img src="./img/iolinker_agent_workflow.png" alt="image-20251112133000710" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 测试 IOLinker Agent
 
 我们打开配置的Telegram机器人，可以直接跟机器人互动。例如询问它`能做什么`，它会基于当前的环境和能调用的外部工具给你一个反馈消息。机器人的每一次回复都是在`执行记录`列表产生一个执行记录。
 
-<img src="./img/test_iolinker_agent_demo1.png" alt="image-20251113093422232" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
-
-<img src="./img/test_iolinker_agent_demo_2.png" alt="image-20251113191653061" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 双击APP可以查看当前APP的输出结果。
 
-<img src="./img/test_iolinker_agent_demo_3.png" alt="image-20251113191740159" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 右键点击可以选择查看对话记录：
 
-<img src="./img/view_iolinker_chat_history_menu.png" alt="image-20251113192115233" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
-<img src="./img/view_iolinker_chat_history.png" alt="image-20251113192152818" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 工具调用
 
 当我们想要计算时，Agent发现有对应的MCP工具，它会自动规划请求的参数并发起调用。
 
-<img src="./img/iolinker_agent_use_mcp_tool.png" alt="image-20251113200520957" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 由于Agent调用了MCP工具，所以这里除了Agent的执行记录，还有一个mcp的执行记录。
 
-<img src="./img/iolinker_agent_call_tool_execution_list.png" alt="image-20251113200600376" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 我们可以在执行详情查看到Agent跟用户的完整交互过程，也可以看到它是如何思考和调用工具的。
 
-<img src="./img/iolinker_agent_mcp_execution_detail.png" alt="image-20251113200731660" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 输入
 
 
-
-<img src="./img/iolinker_agent_input_part1.png" alt="image-20251113192348344" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### API密钥
 
 可以选择在【应用开发】>【凭据管理】创建的LLM API密钥。
 
 
-
 ### 模型
 
 系统会根据当前选择的LLM厂商平台类型返回支持的模型列表，如果有模型不在返回的下拉列表中，可以直接在编辑框输入。
-
 
 
 ### 框架
@@ -109,13 +99,11 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
 然后，循环继续：AI基于所有现有信息（原始问题 + 新观察到的结果）进行**新一轮的思考**，决定下一步行动，如此往复，直到它认为有足够的信息可以给出最终答案。
 
 
-
 ### 最大循环次数
 
 设置Agent基于ReAct框架循环的最大次数，即限制`思考 → 行动 → 观察`循环次数，避免Agent陷入无尽的死循环中。
 
-<img src="./img/iolinker_agent_input_part2.png" alt="image-20251113193213327" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 系统消息
@@ -123,11 +111,9 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
 定义AI Agent的“人设”、角色、行为准则和对话边界。
 
 
-
 ### 用户消息
 
 给Agent下发具体的任务指令。
-
 
 
 ### 输出格式
@@ -144,14 +130,12 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
 
 启用后，智能体的思考过程将在每次ReAct迭代中输出。如果启用Telegram触发器，则发送telegram消息。
 
-<img src="./img/iolinker_agent_input_part3.png" alt="image-20251113193643440" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### MCP 工具
 
-这里可以选择在工作流列表中的[MCP 触发器](https://iolinker.com/zh/mcp.html)创建的MCP Server工具。勾选后，Agent会在分析时根据任务选择对应的工具调用。
-
+这里可以选择在工作流列表中的[MCP 触发器](https://doc.iolinker.com/zh/mcp.html)创建的MCP Server工具。勾选后，Agent会在分析时根据任务选择对应的工具调用。
 
 
 ### 内置工具
@@ -215,8 +199,7 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
   ```
 
 
-
-<img src="./img/agent_memory.png" alt="image-20251113195719594" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 历史对话
 
@@ -224,7 +207,6 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
 
 - 对话轮数：加载最近n轮的历史对话记录，最大可加载1000轮对话。
 - 对话时间：加载最近n分钟前的历史对话记录，最大可加载10天内的对话。
-
 
 
 ## 输出
@@ -246,4 +228,3 @@ ReAct的工作流程是一个典型的循环，可以概括为以下三个步骤
     }
 ]
 ```
-

@@ -13,4 +13,4 @@
 ## Parameter
 **【Loop Count】**parameter set the number of iterations of the subsequent process.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314142554471.png" alt="image-20210314142554471" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

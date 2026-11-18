@@ -10,11 +10,11 @@ meta:
 
 Text data can be written to local files and viewed/maintained under the platform's [File Management] section.
 
-<img src="./img/write_file_menu.png" alt="image-20241013095115813" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Successfully written files can be viewed under **File Management** in the **Local File** section, where they can also be edited and updated.
 
-<img src="/Users/shuwoom/Desktop/iolinker.com/docs/img/write_file.png" alt="image-20250729212126138" style="zoom:50%;" />
+The previous screenshot referenced an unavailable author-local file. Check the current **File Management > Local File** page for the resulting entry.
 
 <iframe 
     width="800" 
@@ -26,12 +26,11 @@ Successfully written files can be viewed under **File Management** in the **Loca
 
 ## Input
 
-<img src="./img/write_file_input.png" alt="image-20241013095350884" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Filename
 
 The name of the saved file, for example: `test.txt`.
-
 
 
 ### Encoding
@@ -58,17 +57,14 @@ Currently, UTF-8 encoding format is supported.
   Delete the specified file by name.
 
 
-
 ### Add Newline
 
 Set whether to add a newline after each piece of data.
 
 
-
 ### Content
 
 The text data content to be written.
-
 
 
 ## Output
@@ -83,6 +79,3 @@ Displays the number of bytes written and filepath.
   }
 ]
 ```
-
-
-

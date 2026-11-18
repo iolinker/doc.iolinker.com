@@ -17,8 +17,7 @@ This callback address can accept parameters via POST and display the output in t
 >> {"response":{}}
 ```
 
-<img src="./img/callback.png" alt="image-20241007222842991" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 If a duplicate submission occurs, an error will be prompted, ensuring that each callback interface can only be called once.
@@ -43,7 +42,6 @@ If a duplicate submission occurs, an error will be prompted, ensuring that each 
 None
 
 
-
 ## Output
 
 - CallbackId：Task ID
@@ -59,4 +57,3 @@ None
     }
 }
 ```
-

@@ -11,11 +11,11 @@ meta:
 
 Workflows can be set to run periodically, supporting intervals such as minutes, hours, days, weeks, and months. The syntax is the same as the crontab format in Linux systems.
 
-<img src="./img/crontab_trigger_menu.png" alt="image-20241007152617237" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 The created workflows can be found under the **【Workflow List】** or **【Crontab List】** in the **【Workflow】** menu.
 
-<img src="./img/crontab-list.png" alt="image-20250729205047635" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 <iframe 
@@ -27,10 +27,9 @@ The created workflows can be found under the **【Workflow List】** or **【Cro
 </iframe>
 
 
-
 ## Input
 
-<img src="./img/trigger_crontab_input.png" alt="image-20241007151114131" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Periodic Expression
 
@@ -75,7 +74,6 @@ Examples：
 | 30 5 1,15 * *            | Run at 5:30 on the 1st and 15th of every month               |
 
 
-
 ### Allowing Multiple Tasks to Run Simultaneously
 
 If checked, each workflow will be triggered to run when the scheduled time is reached, regardless of whether there are any ongoing workflows that have not completed.
@@ -83,8 +81,6 @@ If checked, each workflow will be triggered to run when the scheduled time is re
 If unchecked, the system will check for any ongoing workflows at the time the scheduled period is reached. If there are any still running, the new workflow will not execute. If none are running, the new workflow will execute. For example, if a workflow task is created to run every minute and one task takes longer than a minute to complete, this logic will be used to prevent overlapping executions.
 
 
-
 ## Output
 
 None
-

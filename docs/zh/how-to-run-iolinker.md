@@ -13,7 +13,6 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
 ```
 
 
-
 # 二进制文件运行
 
 当前二进制执行文件支持在以下系统上直接运行：
@@ -25,12 +24,11 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
 > Mac (M1/M2/Intel cpu)
 
 
-
 - 步骤1 : 
 
   进入 [https://iolinker.com](https://iolinker.com) 官网，根据自己当前系统下载对应的可执行文件。
 
-  <img src="./img/multi-platform.png" alt="image-20250711085448703" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - 步骤2: 
 
@@ -42,7 +40,7 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
 
 - 步骤三: 
 
-  运行可执行文件，默认使用80端口，可访问地址为http://localhost，登陆的账号：iolinker，默认密码：iolinker.com。
+  运行可执行文件，并按启动日志中的实际地址访问。首次登录后请立即修改初始密码；端口、账号初始化和安全配置以当前版本为准，见[安装与部署](guide/deployment.md)。未完成安全配置前，不要开放公网访问。
 
   建议登陆后修改密码。
 
@@ -56,7 +54,7 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
 
   如果部署在公网访问，可以通过-d参数指定公网访问的地址。
   
-  例如下面，表示指定公网访问地址为:[test.com](test.com)。
+  例如下面，表示指定公网访问地址为:[test.com](https://test.com)。
   
   ```
   ./iolinker -d test.com
@@ -84,9 +82,6 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
     -p, --port     Set server listen port, default is 80. Usage: ./iolinker -p 80
   
   ```
-
-
-
 
 
 # 性能与要求
@@ -158,7 +153,6 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 
-
 同步API工作流测试：
 
 ```
@@ -217,6 +211,3 @@ Percentage of the requests served within a certain time (ms)
   99%    333
  100%    387 (longest request)
 ```
-
-
-

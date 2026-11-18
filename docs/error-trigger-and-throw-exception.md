@@ -4,12 +4,10 @@
 - **[Error Trigger]** app listens for errors at the workflow level: it catches errors raised anywhere in its own workflow and runs the error branch. It cannot be the workflow's only trigger — pair it with an entry trigger such as Start.
 
 
-
 <iframe width="800" height="600" src="https://www.youtube.com/embed/y7N8uWXESgw" frameborder="0" allowfullscreen></iframe>
 
 
-
-<img src="./img/error-trigger-and-throw-exception-3.png" alt="image-20230915144601702" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## How to use
 
@@ -17,10 +15,10 @@
 
 The content of the exception can be set.
 
-<img src="./img/error-trigger-and-throw-exception-1.png" alt="image-20230915212842968" style="zoom:33%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Error Trigger
 
 Catch errors and display abnormal app information.
 
-<img src="./img/error-trigger-and-throw-exception-2.png" alt="image-20230915213026352" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

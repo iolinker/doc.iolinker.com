@@ -10,8 +10,7 @@ meta:
 
 Concurrently executing multiple subsequent branch tasks can significantly improve efficiency when handling multiple time-consuming parallel tasks. These time-consuming tasks can include Python/PHP/JS scripts, form tasks, approval tasks, and more.
 
-<img src="./img/parallel.png" alt="image-20241007190828184" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Input
@@ -19,10 +18,6 @@ Concurrently executing multiple subsequent branch tasks can significantly improv
 None
 
 
-
 ## Output
 
 None
-
-
-

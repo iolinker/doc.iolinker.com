@@ -1,27 +1,21 @@
 {
-  "devDependencies": {
-    "@maginapp/vuepress-plugin-katex": "^1.0.11",
-    "@vuepress/plugin-back-to-top": "^1.9.7",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-container": "^2.1.5",
-    "vuepress-plugin-sitemap": "^2.3.1"
+  "name": "iolinker-documentation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "clean": "rm -rf docs/.vuepress/dist"
+    "docs:dev": "vitepress dev docs --host 127.0.0.1",
+    "docs:build": "node scripts/prepare-content.mjs && npm run check && vitepress build docs && node scripts/site-check.mjs --dist",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1",
+    "check": "node scripts/site-check.mjs",
+    "test:browser": "node --test tests/browser.test.mjs"
   },
-  "dependencies": {
-    "vue-template-compiler": "^2.7.16",
-    "vuepress-plugin-mygitalk": "^1.0.5"
-  },
-  "name": "IOLinker Workflow",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "playwright": "1.65.1",
+    "vitepress": "1.6.4",
+    "vue": "3.5.24"
+  }
 }

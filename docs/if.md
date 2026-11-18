@@ -10,8 +10,7 @@ meta:
 
 Determine the output as true or false based on the input and select the corresponding branch for execution. Supports the use of "and" and "or" to combine conditions, and allows for the use of variable expressions to make dynamic decisions at runtime.
 
-![image-20241007184328803](./img/if_condition.png)
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Input
@@ -29,13 +28,11 @@ Complex conditional combinations can be formed using "and" and "or" relationship
   Returns true if any one of the conditions is true; otherwise, it returns false if all conditions are false.
 
 
-
 ### Conditional Value Types
 
 Currently, the following four types of value comparisons are supported: boolean, date and time, numeric, and string.
 
-<img src="./img/if_input_paramter_type.png" alt="image-20241007182250995" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 Values 1 and 2 can be constants or variable expressions (dynamically retrieved at runtime).
@@ -44,16 +41,14 @@ Values 1 and 2 can be constants or variable expressions (dynamically retrieved a
 
 Determine whether Value 1 is true or false (Value 2 is not applicable here).
 
-<img src="./img/if_input_boolean.png" alt="image-20241007183512956" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 #### Date and Time
 
 Compare the relationship between Value 1 and Value 2 in terms of dates. You can compare strings in the format `yyyy-mm-dd hh:mm:ss` as well as Unix timestamp formats.
 
-<img src="./img/if_input_date_time.png" alt="image-20241007183551996" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 #### Numeric
@@ -67,7 +62,7 @@ Compare the relationship between Value 1 and Value 2 in terms of size, including
 - Equal to
 - Not equal to
 
-<img src="./img/if_input_number.png" alt="image-20241007183630957" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 #### String
 
@@ -83,8 +78,7 @@ Compare the relationship between Value 1 and Value 2 in terms of strings, includ
 - Not equal to
 
 
-
-<img src="./img/if_input_string.png" alt="image-20241007183709939" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## Output
 
@@ -92,5 +86,4 @@ Compare the relationship between Value 1 and Value 2 in terms of strings, includ
 [true/false]
 ```
 
-<img src="./img/if_output.png" alt="image-20241007183817574" style="zoom: 50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

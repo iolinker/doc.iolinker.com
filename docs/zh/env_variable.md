@@ -12,11 +12,10 @@ meta:
 
 在【应用开发】>【环境变量】下，可以设置全局的环境变量，目前支持添加字符串和数字类型的环境变量。设置后，可以在工作流引用读取。
 
-<img src="./img/add_env_variable.png" alt="add env variable" title="添加环境变量" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
-
-<img src="./img/env_variable_list.png" alt="env variable list" title="环境变量列表" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 使用环境变量
 
@@ -24,6 +23,4 @@ meta:
 
 双击会自动生成变量表达式，工作流会在运行时实时读取该环境变量的值。
 
-<img src="./img/use_env_variable.png" alt="use env variable" title="环境变量使用" style="zoom:50%;" />
-
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。

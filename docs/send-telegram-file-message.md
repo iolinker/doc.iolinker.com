@@ -3,13 +3,11 @@
 Send local file to telegram user.
 
 
-
 ## How to use
 
 ### 1. Create telegram credential
 
-![image-20230829192213107](./img/send-telegram-file-message-2.png)
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### 2. Select telegram credential
@@ -18,16 +16,15 @@ Send local file to telegram user.
 
 The chatid here refers to the id of the telegram user, which is a string of numbers.
 
-You can get the userid through the /userid command of the iolinker robot. Refer to [how to get telegram userid](how_to_get_telegram_userid_by_botman.md).
+You can get the userid through the /userid command of the iolinker robot. Refer to how to get a Telegram user ID.
 
 ### 4. FilePath
 
 Input local file absolute path.
 
-![image-20230829192136275](./img/send-telegram-file-message.png)
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 Result:
 
-<img src="./img/send-telegram-file-message-4.png" alt="image-20230829192452272" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

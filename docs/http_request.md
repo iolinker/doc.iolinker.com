@@ -10,22 +10,20 @@ meta:
 
 Supports sending POST or GET requests.
 
-<img src="./img/http_call_menu.png" alt="image-20241013094011763" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## Input
 
-<img src="./img/http_input.png" alt="image-20241013094259811" style="zoom: 50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### URL
 
 The request URL, supporting both HTTP and HTTPS protocols.
 
 
-
 ### Method
 
 Currently supports GET and POST request methods.
-
 
 
 ### Request Headers
@@ -37,7 +35,6 @@ This is represented using a JSON string format, for example:
 ```
 
 
-
 ### Request Body
 
 The request body for the POST method, typically represented as a JSON string, for example:
@@ -47,11 +44,9 @@ The request body for the POST method, typically represented as a JSON string, fo
 ```
 
 
-
 ### Timeout
 
 You can set the timeout duration for the HTTP call, with the default being 10 seconds.
-
 
 
 ## Output Parameters
@@ -63,17 +58,14 @@ The output returns various fields from the HTTP response package, as follows:
 The message body of the response.
 
 
-
 ### Code
 
 The response status code.
 
 
-
 ### Content Length
 
 The length of the message body content.
-
 
 
 ### Header
@@ -104,5 +96,3 @@ The headers of the response.
     }
 }
 ```
-
-

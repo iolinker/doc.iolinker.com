@@ -16,9 +16,7 @@ Used together with the **Synchronous API**, this allows setting the output resul
 ```
 
 
-
-<img src="./img/output.png" alt="image-20241013093118162" style="zoom:67%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Input

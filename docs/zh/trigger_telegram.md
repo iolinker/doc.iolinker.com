@@ -10,7 +10,7 @@ meta:
 
 通过可视化编排的方式，实现在Telegram Bot机器人上实现指令触发功能，输入指令后会触发工作流执行，从而实现指令功能交互，即使不会Python开发也可以快速开发实现一个指令机器人。
 
-<img src="./img/telegram-trigger-menu.png" alt="telegram-trigger-menu" title="Telegram机器人触发器" style="zoom:50%;" />
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 <iframe 
     width="800" 
@@ -21,13 +21,9 @@ meta:
 </iframe>
 
 
-
 ## 入参
 
-<img src="./img/telegram_trigger_input_parameter.png" alt="telegram_trigger_input_parameter" title="Telegram机器人触发器配置" style="zoom:50%;" />
-
-
-
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 
 ### 创建Telegram凭据
@@ -36,27 +32,26 @@ meta:
 
 这里Token是通过BotFather创建Telegram机器人时返回的一串字符串，如下图所示。
 
-<img src="./img/create_telegram_bot_from_botfather.png" alt="create_telegram_bot_from_botfather" title="BotFather创建telegram凭据" style="zoom:50%;" />
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 #### 消息接收
 
 getUpdates是主动拉，适合内网且无域名环境。webhook是被动接受，适合公网且有证书域名。
 
-<img src="./img/create_telegram_credential.png" alt="create_telegram_credential" title="getUpdates模式" style="zoom:50%;" />
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 - [getUpdates模式](https://core.telegram.org/bots/api#getupdates)。主动拉Telegram提供的getUpdate接口来获取发送给机器人的消息以及事件数据，这种方式不需要像WebHook那样提供域名并暴露在公网上，在内网也可以接受Telegram机器人的回调消息。如下是该模式的流程原理：
 
-  <img src="./img/telegram-message-getupdate.png" alt="telegram-message-getupdate" title="getUpdates模式说明" style="zoom:67%;" />
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 - [webhook模式](https://core.telegram.org/bots/api#setwebhook)。提供一个回调地址（需要https的域名）给Telegram，Telegram会把机器人收到的消息和事件数据推送到这个回调接口，这种方式实时性会更高，但是相对低会要求用户把系统暴露到公网上，且需要提供一个带HTTPS证书的域名。如下是该模式的流程原理：
 
-  <img src="./img/telegram-message-webhook.png" alt="telegram-message-webhook" title="webhook模式说明" style="zoom:67%;" />
-
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 
 ### 消息类型
 
-<img src="./img/telegram_msg_type.png" alt="telegram_msg_type" title="telegram消息类型" style="zoom:50%;" />
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 - 文本
 
@@ -74,7 +69,6 @@ getUpdates是主动拉，适合内网且无域名环境。webhook是被动接受
 ### 授权成员
 
 默认不设置表示所有人都有权限使用机器人命令，如需指定成员，需要设定成员的Telegram ID。
-
 
 
 ### 命令和参数
@@ -110,14 +104,12 @@ getUpdates是主动拉，适合内网且无域名环境。webhook是被动接受
 }
 ```
 
-<img src="./img/telegram_cmd_and_parameter.png" alt="telegram_cmd_and_parameter" title="telegram bot命令设置" style="zoom:50%;" />
-
+> 旧界面素材未纳入新版发布，以避免过期步骤与未核实信息；请以历史兼容说明和当前界面为准。
 
 
 ### 调试数据
 
 调试数据是模拟应用在运行时输出的结果，方便用户在设计工作流时调试。
-
 
 
 ## 出参
@@ -151,4 +143,3 @@ getUpdates是主动拉，适合内网且无域名环境。webhook是被动接受
   - chatType：private表示单聊消息、group表示群聊消息
   - id：表示发送该消息的用户Telegram ID
   - username：表示发送该消息的用户名称
-

@@ -15,9 +15,8 @@ Besides, when you call the webhook url, you can pass parameters data, and these 
 ## Parameter
 The **【Debug Data】** parameter is mainly to facilitate debugging when designing the workflow. For example, you can simulate the json parameters to be passed in the webhook request.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210313182231666.png" alt="image-20210313182231666" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 When you debug the workflow, the **【Debug Data】** will be used as its output, and you can reference it in other app node.
 
-<img src="/Users/shuwoom/Library/Application Support/typora-user-images/image-20210313182111804.png" alt="image-20210313182111804" style="zoom:50%;" />
-
+> The unavailable historical image reference was removed. Follow the written steps and current interface.

@@ -13,7 +13,6 @@ docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
 ```
 
 
-
 # On Device
 
 The current binary executable file supports direct execution on the following systems:
@@ -25,12 +24,11 @@ The current binary executable file supports direct execution on the following sy
 > Mac (M1/M2/Intel cpu)
 
 
-
 - Step 1 : 
 
   Enter the [https://iolinker.com](https://iolinker.com) official website and download the corresponding executable file according to your current system.
 
-  <img src="./img/multi-platform.png" alt="image-20250711085353446" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - Step 2: 
 
@@ -56,7 +54,7 @@ The current binary executable file supports direct execution on the following sy
 
   If you want to deploy for public access, you can specify the public access address using the -d parameter.
 
-  For example, the following command specifies the public access address as: [test.com](test.com).
+  For example, the following command specifies the public access address as: [test.com](https://test.com).
 
   ```
   ./iolinker -d test.com
@@ -85,7 +83,6 @@ The current binary executable file supports direct execution on the following sy
   
 
 
-
 # Performance and Requirements
 
 - **High Concurrency**: On a single machine, the QPS of asynchronous API workflows can reach over 5,000, and the QPS of synchronous API workflows can reach over 100.
@@ -93,7 +90,6 @@ The current binary executable file supports direct execution on the following sy
 - **High Capacity**: The Crontab workflow supports over **100,000** concurrent active workflows.
 
 - **Low Resource Consumption**: Low hardware requirements; the system can run on a machine with 1 core and 1GB of memory or more.
-
 
 
 Async API Workflow:
@@ -158,7 +154,6 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 
-
 Sync API Workflow:
 
 ```
@@ -217,4 +212,3 @@ Percentage of the requests served within a certain time (ms)
   99%    333
  100%    387 (longest request)
 ```
-

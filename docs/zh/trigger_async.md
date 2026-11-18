@@ -10,13 +10,13 @@ meta:
 
 生成一个HTTP服务的API接口，调用该接口会以异步方式触发工作流运行，适合处理耗时任务，不等待工作流运行结束，直接返回执行实例的ID。
 
-<img src="./img/trigger_async_api.png" alt="trigger_async_api" title="异步API触发器" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 创建的工作流可以在【流程管理】下的【工作流列表】或【API列表】找到。
 
 注意：API只有启用后才能正常使用，否则会提示报错接口未启用。
 
-<img src="./img/api-list.png" alt="api-list" title="api列表" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -28,15 +28,14 @@ meta:
 
 ## 入参
 
-<img src="./img/async_api_input_parameter.png" alt="async_api_input_parameter" title="异步API触发器配置" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 鉴权认证
 
 目前支持一下三种鉴权方式：
 
-<img src="./img/sync_api_input_login_verification.png" alt="sync_api_input_login_verification" title="异步API触发器鉴权" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 - 没有鉴权
 
@@ -93,11 +92,9 @@ meta:
 API模块主要用来对接口进行分类，例如可以按照产品分不同的模块。
 
 
-
 ### API方法
 
 模块下的接口名称。
-
 
 
 ### API方法
@@ -105,11 +102,9 @@ API模块主要用来对接口进行分类，例如可以按照产品分不同�
 目前支持GET和POST两种方法。
 
 
-
 ### 调试数据
 
 模拟用户请求接口是传递的POST参数，方便用户调试接口。
-
 
 
 ## 输出
@@ -123,4 +118,3 @@ API模块主要用来对接口进行分类，例如可以按照产品分不同�
     }
 }
 ```
-

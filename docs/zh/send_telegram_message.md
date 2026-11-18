@@ -10,7 +10,7 @@ meta:
 
 通过Telegram机器人发送文本、Markdown、图片、文件、Gif等消息。
 
-<img src="./img/send-telegram-msg-menu.png" alt="send-telegram-msg-menu" title="tg消息发送menu" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -21,17 +21,13 @@ meta:
 </iframe>
 
 
-
-
-
 ## 入参
 
-<img src="./img/send-telegram-msg-input-parameter.png" alt="send-telegram-msg-input-parameter" title="tg消息发送配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 凭据
 
 需要先在【应用开发】>【凭据管理】创建。
-
 
 
 ### ChatId
@@ -40,8 +36,7 @@ meta:
 
 地址：[@userinfobot](https://telegram.me/userinfobot)
 
-<img src="./img/send-telegram-msg-get-chatid.png" alt="send-telegram-msg-get-chatid" title="设置chatid" style="zoom: 33%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 消息类型
@@ -58,14 +53,12 @@ meta:
 选择不同的消息类型，需要输入的内容也不一样，例如Text类型就会关联文本输入框。
 
 
-
 ### Parse Mode
 
 消息的输出格式，目前支持两种：
 
 - Html
 - Markdown
-
 
 
 ### 等待回复
@@ -91,4 +84,3 @@ meta:
     "result": "ok"
 }
 ```
-

@@ -20,11 +20,9 @@ The following article will show you how to implement a complex Telegram interact
 </iframe>
 
 
-
 ## 一、Demo
 
 First and foremost, let’s take a look at the final result of the Telegram bot we’re going to build:
-
 
 
 ## 二、Two Methods for Receiving Telegram Callback Messages
@@ -46,7 +44,7 @@ Polling Telegram's getUpdates API to retrieve messages and event data sent to th
 - Requires local storage to track previously processed messages and avoid duplicate responses
 - Only suitable for scenarios with low message volume
 
-<img src="../img/telegram-message-getupdate.png" alt="getUpdate Message Retrieval Principle Diagram" style="zoom:67%;" title="getUpdate Message Retrieval Principle Diagram"/>
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 ### （2）webhook mode
 
@@ -63,8 +61,7 @@ Provide a callback URL (requiring an HTTPS domain) to Telegram. Telegram will th
 - Requires a domain name with an HTTPS certificate
 - Requires manual registration of the callback interface with Telegram's BotFather
 
-<img src="../img/telegram-message-webhook.png" alt="Webhook Message Retrieval Principle Diagram" title="通Webhook Message Retrieval Principle Diagram" style="zoom:67%;" />
-
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
 ## 三、Python Library Implementation
@@ -75,16 +72,15 @@ For developers with programming experience, this can already be quite challengin
 
 Open-source Telegram Python library: https://github.com/python-telegram-bot/python-telegram-bot
 
-<img src="./img/python-telegram-bot-site-1.png" alt="https://github.com/python-telegram-bot/python-telegram-bot introduction" title="https://github.com/python-telegram-bot/python-telegram-bot introduction" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
-<img src="./img/python-telegram-bot-site-2.png" alt="https://github.com/python-telegram-bot/python-telegram-bot仓库介绍" title="https://github.com/python-telegram-bot/python-telegram-bot仓库介绍" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 Telegram Official Bot API (Extensive!!):
 
-<img src="./img/telegram-bot-api.png" alt="telegram Bot官网API截图" title="telegram Bot官网API截图" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 Of course, such a cumbersome implementation method is not within our consideration. Let‘s explore another approach below.
-
 
 
 ## 四、IOLinker Workflow Orchestration Tool Implementation
@@ -97,23 +93,23 @@ Refer to the official documentation: [How to Run IOLinker](https://doc.iolinker.
 
 Most people likely already have this set up, so we won’t go into excessive detail. The key step is to apply through the official BotFather.
 
-<img src="./img/create_telegram_bot_from_botfather.png" alt="如何通过BotFather申请Telegram机器人" title="如何通过BotFather申请Telegram机器人" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 After creating the credentials, navigate to the **App Development > Credential Management** page in IOLinker and enter the Telegram credentials you just created:
 
-<img src="./img/create-telegram-credential.png" alt="Creating Telegram credentials on IOLinker" title="Creating Telegram credentials on IOLinker" style="zoom:50%;" />
+> The original image contained a credential, token or application identifier and is excluded from publication. Create and enter your own secret in the local configuration.
 
 - Set this credential as the default. When chatting with the bot, the system will automatically identify which Telegram credential to use.
 
 - Enable built-in preset commands. Once enabled, the default custom commands `/start`, `/man`, and `/list`will be available, effortlessly implementing command functionality without writing a single line of code. To modify command descriptions, go to the credential creation page to make changes.
 
-  <img src="./img/tg-bot-start-cmd.png" alt="tg-bot-start-cmd" title="telegram bot /start cmd" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
   
 
   Custom Command List:
 
-  <img src="./img/builtin-cmd-list.png" alt="builtin-cmd-list" title="Built-in Custom Commands" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
   
 
@@ -121,7 +117,7 @@ After creating the credentials, navigate to the **App Development > Credential M
 
 Click the [Create Workflow] button under the [Edit] menu.
 
-<img src="./img/create-workflow-menu.png" alt="create workflow menu" title="create workflow menu" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
 Under the [Triggers] category on the left, select [Telegram Trigger], double-click it, and configure according to the image below.
@@ -136,29 +132,29 @@ Under the [Triggers] category on the left, select [Telegram Trigger], double-cli
 
  - Command Description: Settings here will be displayed in the bot's preset command list  
 
- - Command Parameters: Refer to the documentation: [Commands and Parameters](https://iolinker.com/trigger_telegram.html#commands-and-parameters)
+ - Command Parameters: Refer to the documentation: [Commands and Parameters](https://doc.iolinker.com/trigger_telegram.html#commands-and-parameters)
 
  - Debug Data: This primarily simulates the output results after the Telegram bot trigger is executed, allowing simulated data output without actually running the bot
 
-<img src="./img/set-tg-bot-trigger.png"  alt="Configure Telegram Bot Trigger Settings Page" title="Configure Telegram Bot Trigger Settings Page" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 At this point, if we save and enable the configuration directly, it will actually be operational. However, note that this setup only captures user input without providing actual feedback to the user, as shown below.
 
 The IOLinker tool will automatically register the created Telegram Bot commands to the preset command list.
 
-<img src="./img/create_tg_nmap_cmd.png" alt="tg nmap cmd list" title="tg nmap built-in command" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 When we manually enter the command `/nmap -h 1.1.1.1`with parameters, it triggers the workflow to run (it can also be triggered without parameters, in which case default values will be used).
 
-<img src="./img/tg_nmap_cmd_trigger.png" alt="tg nmap command trigger workflow" title="tg nmap command trigger workflow" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 After entering the `/nmap`command in the Telegram bot, we can see the workflow's execution records in the workflow list.
 
-<img src="./img/tg-bot-execution-list.png" alt="telegram bot execution list" title="telegram bot execution list"  style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 Click on the execution record to view detailed response data. The previously entered parameters will be automatically parsed and extracted:
 
-<img src="./img/telegram-bot-trigger-detail.png" alt="telegram bot execution detail" title="telegram bot execution detail"  style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 At this point, we have successfully implemented the input and response mechanism for bot commands. Subsequent steps can now involve adding other workflow logic, such as sending messages or interactive approval buttons.
 
@@ -174,7 +170,7 @@ At this point, we have successfully implemented the input and response mechanism
 
    - Content: The specific content of the approval request.
 
-   - Members: By default, only configured sets can be selected (viewable in the Settings section). Note: You must first set your Telegram account ID under Settings → Account. For instructions on how to find your Telegram ID, refer to the documentation: [How to get Telegram ChatId](https://iolinker.com/send_telegram_message.html#chatid).
+   - Members: By default, only configured sets can be selected (viewable in the Settings section). Note: You must first set your Telegram account ID under Settings → Account. For instructions on how to find your Telegram ID, refer to the documentation: [How to get Telegram ChatId](https://doc.iolinker.com/send_telegram_message.html#chatid).
 
    - Type: Or-sign (i.e., only one approval is required).
 
@@ -184,18 +180,17 @@ At this point, we have successfully implemented the input and response mechanism
 
    - No Label: Set the label text for rejection.
 
-<img src="./img/set-telegram-id.png" alt="How to Set Up a Telegram Account ID" title="How to Set Up a Telegram Account ID"  style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 As shown in the figure below, after configuring the Approval app, you can set up follow-up response branches for approval (green node) and rejection (red node), such as executing other Python code or sending messages via Telegram.
 
-<img src="./img/set-tg-approval-bot-setting.png" alt="Configure approval, rejection, and timeout branches for Telegram approval" title="Configure approval, rejection, and timeout branches for Telegram approval"  style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 ### (5) Save and Enable
 
 After saving, you can view the created bot information under **[Chatbot List]** in the **[Workflow]** section, or check it in the **[Workflow List]**.
 
-<img src="./img/telegram-bot-list.png" alt="telegram bot list" title="telegram bot list" style="zoom:50%;" />
-
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
 ### (6) Test Robot
@@ -204,11 +199,10 @@ Open the created bot, enter the `/start`command, and you will see the bot send u
 
 Click the **[Yes]** or **[No]** button to execute the subsequent approval or rejection branch processes.
 
-<img src="./img/tg-bot-start-cmd-v2.png" alt="trigger telegram bot /start cmd" title="trigger telegram bot /start cmd" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 Returning to the **[Execution]**, we can see the workflow's response history. Here, it is visible that the workflow selected and executed the corresponding branch based on the bot's interaction.
 
 If familiar with the process, the entire setup can be completed in under a minute—far more efficient than traditional coding methods!
 
-<img src="./img/tg-bot-execution-detail-v2.png" alt="telegram bot execution detail" title="telegram bot execution detail" style="zoom:50%;" />
-
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.

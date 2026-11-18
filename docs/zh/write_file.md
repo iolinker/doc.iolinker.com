@@ -10,11 +10,11 @@ meta:
 
 可向本地文件写入文本数据，并在平台的【文件管理】下查看和维护。
 
-<img src="./img/write-file.png" alt="write-file" title="文件写入" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 写入成功的文件可以在【文件管理】下的【本地文件】查看到，并且可以在这里进行编辑和更新。
 
-<img src="./img/local-file.png" alt="local-file" title="本地文件管理" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -26,18 +26,16 @@ meta:
 
 ## 入参
 
-<img src="./img/write-file-input-parameter.png" alt="write-file-input-parameter" title="文件写入配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 文件名
 
 保存的文件名，例如：test.txt。
 
 
-
 ### 编码
 
 当前支持UTF8编码格式。
-
 
 
 ### 操作
@@ -55,17 +53,14 @@ meta:
   删除指定的文件名。
 
 
-
 ### 添加数据
 
 设置是否每条数据都添加换行。
 
 
-
 ### 内容
 
 写入的文本数据内容。
-
 
 
 ## 出参
@@ -80,4 +75,3 @@ meta:
   }
 ]
 ```
-

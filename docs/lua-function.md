@@ -14,5 +14,4 @@ The receiving parameter variable of the lua script, you can use **param** variab
 
 The maximum execution time of lua script.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314173904070.png" alt="image-20210314173904070" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

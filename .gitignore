@@ -3,3 +3,10 @@ node_modules/
 dist/
 docs/dist.tgz
 .vscode
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/.temp/
+docs/.vitepress/quarantine/
+docs/.vitepress/*.log
+playwright-report/
+test-results/

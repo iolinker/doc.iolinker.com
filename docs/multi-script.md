@@ -10,11 +10,11 @@ meta:
 
 It supports running multiple scripts either concurrently in parallel or sequentially one after another.
 
-<img src="./img/multi-script-menu.png" alt="image-20241013160053565" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## Input
 
-<img src="./img/multi-script-input.png" alt="image-20250708084311005" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Language
 
@@ -29,23 +29,20 @@ It supports running multiple scripts either concurrently in parallel or sequenti
 Note: The local native virtual machine depends on the current machine environment. If the corresponding virtual machine is not available, the script cannot be executed.
 
 
-
 ### Snippet
 
 Code snippets will be displayed under the corresponding programming language list in **File Management** -> **Code Snippet**.
 
-<img src="./img/code-snippet-list.png" alt="image-20250708081538262" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Params
 
 Here you can pass parameters to the script through sys.argv (python script) or $argv (php script). Of course, you can also use variable expressions to reference previous output as input to the script.
 
-<img src="./img/multi-script-input-params.png" alt="image-20250708084952211" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<img src="./img/code-snippet-demo.png" alt="image-20250708084654015" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Execution Mode
@@ -54,12 +51,11 @@ Here you can pass parameters to the script through sys.argv (python script) or $
 
   The selected scripts run simultaneously, which can improve execution efficiency. You can set the number of scripts to run at runtime. The default value is 0, which means all scripts are executed simultaneously.
 
-  <img src="./img/multi-script-paralle-mode.png" alt="image-20250708081622623" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - Sequential Execution
 
   The selected scripts run one after another, with each script only starting after the previous one has finished.
-
 
 
 ### Timeout
@@ -91,11 +87,11 @@ Set the script execution timeout. If the execution exceeds this time, the system
 
 By default, the App will throw an exception when an error occurs, and then stop the subsequent App from running. Here, even if only one script is abnormal, the entire App will report an error. If you want to ignore the error and continue running, you can choose to ignore it in the exception handling operation.
 
-<img src="./img/mult-script-error-handler-throw.png" alt="image-20250708081853136" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 Ignore the error and continue running:
 
-<img src="./img/multi-script-error-handler-ignore.png" alt="image-20250708082052079" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## Output
 
@@ -121,7 +117,6 @@ Since multiple script executions can be selected, the output structure is in the
   }
 ]
 ```
-
 
 
 Here, the output from the terminal will be used as the result for this APP. For example:

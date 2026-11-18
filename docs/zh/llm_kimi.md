@@ -11,14 +11,12 @@ meta:
 通过[Moonshot](https://platform.moonshot.cn/console/api-keys)平台的API，调用大模型接口，该平台有一定的免费Token额度可以使用。
 
 
-
-<img src="./img/moonshot-ai-menu.png" alt="moonshot-ai-menu" title="kimi" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 输入
 
-<img src="./img/moonshot-input-parameter.png" alt="moonshot-input-paramete" title="kimi配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### API Key
 
@@ -26,22 +24,20 @@ meta:
 
 - API Key。[Moonshot](https://platform.moonshot.cn/console/api-keys)平台生成的API Key。
 
-<img src="./img/moonshot-input-cred.png" alt="moonshot-input-cred" title="kimi凭据配置" style="zoom:50%;" />
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
-<img src="./img/moonshot-platform.png" alt="imoonshot-platform" title="kimi平台" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 模型
 
 当前支持的模型，可以参考官方[文档](https://platform.moonshot.cn/docs/introduction#%E5%85%B6%E4%BB%96%E5%80%BC%E5%BE%97%E6%B3%A8%E6%84%8F%E7%9A%84%E9%87%8D%E8%A6%81%E4%BA%8B%E9%A1%B9)。
 
-<img src="./img/moonshot-input-model.png" alt="moonshot-input-model" title="kimi大模型" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 输入
 
 提示语内容。
-
 
 
 ### Temperature
@@ -50,8 +46,7 @@ meta:
 
 ## 输出
 
-<img src="./img/moonshot-output.png" alt="moonshot-output" title="kimi输出" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 完整输出如下：
@@ -82,4 +77,3 @@ meta:
   }
 ]
 ```
-

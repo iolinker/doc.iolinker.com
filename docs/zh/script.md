@@ -10,7 +10,7 @@ meta:
 
 支持使用本地原生虚拟机（例如本地环境的Python）或系统内置的虚拟机（不依赖本地环境）执行Python、Javascript、PHP、Golang、LUA和Shell脚本。
 
-<img src="./img/script.png" alt="script" title="代码执行" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -21,10 +21,9 @@ meta:
 </iframe>
 
 
-
 ## 入参
 
-<img src="./img/script-input-parameter.png" alt="script-input-parameter" title="代码执行配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 语言
 
@@ -39,7 +38,6 @@ meta:
 注意：本地原生虚拟机依赖当前机器环境，如果没有对应的虚拟机，则无法执行脚本。
 
 
-
 > 内置虚拟机
 
 - JavaScript
@@ -49,14 +47,13 @@ meta:
 注意：内置虚拟机不依赖本地环境，可以直接执行脚本。
 
 
-
 ### 代码片段
 
 代码片段会显示【文件管理】->【代码文件】下对应编程语言列表。
 
-<img src="./img/script-input-parameter-snippet.png" alt="script-input-parameter-snippet" title="代码片段选择" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
-<img src="./img/code-snippet.png" alt="code-snippet" title="代码片段" style="zoom:67%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 针对选择的代码文件，支持两种类型的操作：
 
@@ -68,28 +65,25 @@ meta:
 
   该操作是引用选择的代码，只能在【代码文件】那里打开编辑修改。
 
-<img src="./img/script-input-parameter-snippet-reference.png" alt="script-input-parameter-snippet-reference" title="代码片段引用" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 在【代码文件】的代码编辑器下，还可以一边写代码、一边调试运行：
 
-<img src="./img/code-snippet-debug.png" alt="code-snippet-debug" title="代码片段测试" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 代码
 
 当前要执行的代码。
 
 
-
 ### 参数
 
 这里可以通过sys.argv（python脚本）或者$argv（php脚本）方式给脚本通义传递参数，当然这里也可以使用变量表达式引用前面的输出作为脚本的输入。
 
-<img src="./img/script-input-params.png" alt="script-input-params" title="代码执行配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
-
-<img src="./img/script-input-params-output.png" alt="script-input-params-output" title="代码执行输出" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 超时
@@ -109,15 +103,11 @@ meta:
 ```
 
 
-
 ## 异常处理
 
 默认情况下，代码执行过程中发生异常，默认采取的策略是抛出异常，然后整个工作流报错停止运行。
 
-<img src="./img/code_error_handler.png" alt="code_error_handler" title="异常处理" style="zoom:50%;" />
-
-
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 目前一共有以下几种策略：
@@ -131,7 +121,7 @@ meta:
 
 重试策略可以设置发生异常时重试的次数及其间隔。
 
-<img src="./img/code_error_retry.png" alt="code_error_retry" title="失败重试" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 抛异常
 
@@ -145,8 +135,7 @@ meta:
 
 可以设置响应这个异常的分支来进行处理。如下图，从右边红色的原点连接到其他节点，即可实现对异常的捕获。
 
-<img src="./img/code_error_catch.png" alt="code_error_catch" title="失败捕获" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 出参
@@ -183,4 +172,3 @@ meta:
   <?php
   echo "123";
   ```
-

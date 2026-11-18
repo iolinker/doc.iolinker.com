@@ -10,16 +10,14 @@ meta:
 
 You can convert Json data (array) into a csv file.
 
-<img src="./img/json_to_csv_menu.png" alt="image-20250702095503905" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 The successfully written files can be viewed in [Local File] under [File Management], and can be edited and updated here.
 
-<img src="./img/run_json_to_csv.png" alt="image-20250702095631252" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
-
-<img src="./img/json_to_csv_to_local.png" alt="image-20250702095712187" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 <iframe 
@@ -32,7 +30,7 @@ The successfully written files can be viewed in [Local File] under [File Managem
 
 ## Input
 
-<img src="./zh/img/json_to_csv_input.png" alt="image-20250611091707430" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### Filename
 
@@ -54,7 +52,6 @@ The name of the saved file, for example: test. No need to add the suffix .csv, t
 The JSON array text data content to be written.
 
 
-
 ## Output
 
 Output csv file path.
@@ -66,4 +63,3 @@ Output csv file path.
   }
 ]
 ```
-

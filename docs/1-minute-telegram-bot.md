@@ -7,11 +7,9 @@
 Please refer to [How to create telegram bot and get token](how_to_create_telegram_bot_and_get_token.md)
 
 
-
 ## Step2: Download and run iolinker tool
 
 Please refer to [How to run iolinker](how-to-run-iolinker.md)
-
 
 
 ## Step3: Config telegram token in iolinker
@@ -20,24 +18,21 @@ After run batman tool, go to **App Development > [Credential]** page, you will s
 
 Click **[edit]** button and set the telegram token you created in Step1.
 
-<img src="./img/1-minute-telegram-bot-1.png" alt="image-20230925230554923" style="zoom:50%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
-
-<img src="./img/1-minute-telegram-bot-2.png" alt="image-20230925230731847" style="zoom:50%;" />
-
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
 ## Step4: Enable Demo telegram command workflow
 
 Switch the button to green status.
 
-<img src="./img/1-minute-telegram-bot-3.png" alt="image-20230925230935835" style="zoom:50%;" />
-
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.
 
 
 ## Step5: Finished!🎉🎉
 
 Go to telegram and open your bot, input "**/start**" command and you will see it works.
 
-<img src="./img/bot-trigger-2.png" alt="image-20230908000324190" style="zoom: 33%;" />
+> Historical interface media is not published to avoid stale instructions and unverified information. See the compatibility note and current interface.

@@ -2,13 +2,12 @@
 
 支持发送文本等消息。
 
-<img src="./img/send_wechat_work_bot_msg_menu.png" alt="send_wechat_work_bot_msg_menu" title="发送企微消息" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 入参
 
-<img src="./img/send_wechat_work_bot_msg_input.png" alt="send_wechat_work_bot_msg_input" title="发送企微消息配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 凭据
 
@@ -16,10 +15,7 @@
 
 首先需要到企微客户端软件创建好群机器人，详细参考： [创建群机器人](https://developer.work.weixin.qq.com/document/path/99110) 
 
-<img src="./img/create_wechat_work_bot_cred.png" alt="create_wechat_work_bot_cred" title="企微机器人凭据" style="zoom:50%;" />
-
-
-
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 
 ### ChatId
@@ -27,9 +23,7 @@
 默认给所有添加了机器人的群都发送广播消息。
 
 
-
-<img src="./img/send_wechat_work_bot_input_chatid.png" alt="send_wechat_work_bot_input_chatid" title="设置企微chatid" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 消息类型
@@ -42,11 +36,9 @@
 选择不同的消息类型，需要输入的内容也不一样，例如Text类型就会关联文本输入框。Markdown类型支持的格式参考官方文档：https://developer.work.weixin.qq.com/document/path/99110#markdown%E7%B1%BB%E5%9E%8B
 
 
-
 ### 内容
 
 消息内容
-
 
 
 ## 出参
@@ -61,4 +53,3 @@
   }
 ]
 ```
-

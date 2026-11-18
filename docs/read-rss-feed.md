@@ -83,4 +83,4 @@ For example, ```https://medium.com/feed/hacker-daily/tagged/software-development
 
 Rss feed url.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314203710709.png" alt="image-20210314203710709" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

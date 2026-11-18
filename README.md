@@ -1,65 +1,36 @@
-# IOLinker AI Workflow
+# IOLinker Documentation
 
-![](docs/.vuepress/public/logo.png)
+Public documentation for the agent and workflow automation workspace. English and Chinese guides are organized by customer tasks, with original node-reference URLs retained.
 
-**The most powerful production-grade Agentic workflow tool for individuals**
+## Local development
 
--  ⚡ Easy To Use.
+Requires Node.js 22 or later.
 
-  Low-code concept supports drag-and-drop design of workflow
-
-- 🤖 Agentic Workflow
-
-  By visually orchestrating intelligent agents, an efficient automated tool is developed that can perceive the environment, make autonomous decisions, and execute tasks to achieve goals.
-
-- ⚒️ Rich Functions
-
-  A variety of trigger modes and rich logic components, and supports flexible expansion of various common programming 
-
-  <iframe 
-    width="800" 
-    height="600" 
-    src="https://www.youtube.com/embed/0st8gw2a54s"  
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-
-
-## 🌟 Rich Triggers
-![](docs/.vuepress/public/rich-trigger.png)
-
-## 🌟 Rich Logic Components
-![](docs/.vuepress/public/logic.png)
-
-## 🌟 Workflow Management
-![](docs/.vuepress/public/workflow-management.png)
-
-## 🌟 Variable Expression
-![](docs/.vuepress/public/variable-expression.png)
-
-## 🌟 Retrieval-augmented generation(RAG)
-![](docs/.vuepress/public/local-knowledge.png)
-
-## 🗂️ File Management
-![](docs/.vuepress/public/file-management.png)
-
-## 📊 Data Analytics
-![](docs/.vuepress/public/data-analysis-worldmap.png)
-
-## 🌟 Support Multi Platform
-- [Mac Apple](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-darwin-arm64-v2.4.3.tar.gz)
-- [Mac Intel](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-darwin-amd64-v2.4.3.tar.gz)
-- [Linux AMD64](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-linux-amd64-v2.4.3.tar.gz)
-- [Linux ARM64](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-linux-arm64-v2.4.3.tar.gz)
-- [Raspberry PI 4B](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-linux-armv7-v2.4.3.tar.gz)
-- [Synology NAS](https://iolinker.oss-cn-shenzhen.aliyuncs.com/iolinker-standalone-linux-armv7-v2.4.3.tar.gz)
-- [Docker]
-```
-docker run --name iolinker -p 80:80 -e Domain=localhost iolinker/iolinker:latest
-
+```sh
+npm ci
+npm run docs:dev
 ```
 
-::: slot footer
-Copyright © 2024 [IOLinker] Email：iolinker@outlook.com
-:::
+Open the local address printed by VitePress. The default development host is local-only.
+
+## Validation and build
+
+```sh
+npm run check
+npm run docs:build
+npm run test:browser
+```
+
+Browser tests expect a development server on `http://127.0.0.1:4174`; set `DOCS_PREVIEW_URL` when using another local address. Install the matching Chromium browser with `npx playwright install chromium` if it is not already available. Sandbox flags are not disabled.
+
+`npm run docs:build` prepares public assets, validates source links, builds to `docs/.vitepress/dist` and checks original URLs, images, CNAME and the sensitive-media exclusion manifest. A successful static publication must come from a build that exits successfully, not from a partial local artifact.
+
+## Content conventions
+
+- Core guides have both `docs/guide/` and `docs/zh/guide/` versions.
+- Existing article paths remain unchanged. Legacy robot tutorials are marked as compatibility references, not new-customer quick starts.
+- Download versions are maintained only in the official website's `version.json`.
+- `compatibility.json` records original URLs, referenced images and excluded assets. `security-exclusions.json` records reviewed sensitive media; the originals are not deleted by the migration. All historical article images are withheld until individually reviewed and recaptured; written steps and old URLs remain available.
+- Generated public images and quarantined copies are maintained by `scripts/prepare-content.mjs`. Do not publish quarantined material.
+
+GitHub Actions publishes only after a successful build, using `doc.iolinker.com`. This repository contains no live credentials for deployment.

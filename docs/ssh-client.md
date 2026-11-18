@@ -34,7 +34,7 @@ Ssh port, default is 22.
 
 > Password
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314201104384.png" alt="image-20210314201104384" style="zoom: 33%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ### SSH Client App
 
@@ -46,4 +46,4 @@ The ssh config(host, port, username and password) in credential list.
 
 Shell script.
 
-<img src="https://public-pic-1251784084.cos.ap-guangzhou.myqcloud.com/image-20210314201747361.png" alt="image-20210314201747361" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.

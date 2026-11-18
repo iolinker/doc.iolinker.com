@@ -10,13 +10,13 @@ meta:
 
 Generate an HTTP service API interface that, when called, will trigger the workflow to run, wait for the workflow to finish, and return the output results.
 
-<img src="./img/sync_api_menu.png" alt="image-20241007154149089" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 The created workflows can be found under the **【Workflow List】** or **【API List】** in the **【Workflow】** section.
 
 Note: The API can only be used normally after it is enabled; otherwise, an error message will indicate that the interface is not enabled.
 
-<img src="./img/api-list.png" alt="image-20250708090057871" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 <iframe 
     width="800" 
@@ -28,16 +28,14 @@ Note: The API can only be used normally after it is enabled; otherwise, an error
 
 ## Input
 
-<img src="./img/sync_api_input.png" alt="image-20241007154301010" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Authentication Methods
 
 Currently, the following three authentication methods are supported:
 
-<img src="./img/api_input_login_verification.png" alt="image-20241007153526472" style="zoom:80%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 - No Authentication
@@ -89,12 +87,9 @@ Currently, the following three authentication methods are supported:
   ```
 
 
-
-
 ### API Module
 
 The API module is primarily used to categorize interfaces, allowing for different modules based on products.
-
 
 
 ### API Methods
@@ -102,19 +97,14 @@ The API module is primarily used to categorize interfaces, allowing for differen
 The names of the interfaces under the module.
 
 
-
 ### API Methods
 
 Currently, both GET and POST methods are supported.
 
 
-
 ### Debugging Data
 
 Simulated user requests for the interface, including the POST parameters, to facilitate user debugging of the interface.
-
-
-
 
 
 ## Output
@@ -139,7 +129,6 @@ By default, if no output is set, the synchronous API interface output is as foll
 ```
 
 
-
 If the output is set (using the **【Output】** application), for example, outputting a JSON structure: `{"name":"hello world"}`, the output result is as follows:
 
 ```json
@@ -154,4 +143,3 @@ If the output is set (using the **【Output】** application), for example, outp
     }
 }
 ```
-

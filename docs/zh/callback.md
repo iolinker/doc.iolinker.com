@@ -18,8 +18,7 @@ meta:
 ```
 
 
-
-<img src="./img/callback.png" alt="callback"  title="回调接口" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 如果重复提交，会提示错误，确保每个回调接口只能被调用一次。
 
@@ -27,7 +26,6 @@ meta:
 >> curl -d '{"name":"hello world"}' http://localhost/v1/webhook/callback/202435253cf81b3f15a1de22b3a0586f
 >> {"response":{"error":{"code":"requestError.repeatedOperation","message":"requestError.repeatedOperation"}}}
 ```
-
 
 
 <iframe 
@@ -39,11 +37,9 @@ meta:
 </iframe>
 
 
-
 ## 输入
 
 无
-
 
 
 ## 输出
@@ -61,4 +57,3 @@ meta:
     }
 }
 ```
-

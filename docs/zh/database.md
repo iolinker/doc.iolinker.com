@@ -10,8 +10,7 @@ meta:
 
 支持输入SQL语句实现对数据库的增删改查等操作。
 
-<img src="./img/database.png" alt="database" title="数据库" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 <iframe 
@@ -23,10 +22,9 @@ meta:
 </iframe>
 
 
-
 ## 入参
 
-<img src="./img/database-input-parameter.png" alt="database input parameter" title="数据库参数配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 凭据
 
@@ -38,8 +36,7 @@ meta:
 - 密码：数据库密码。
 - 编码：数据库读写编码格式，默认utf8。
 
-<img src="./img/database-input-cred.png" alt="database input cred" title="数据库凭据" style="zoom:50%;" />
-
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 
 ### 数据库类型
@@ -51,11 +48,9 @@ meta:
 - SQL Server
 
 
-
 ### SQL语句
 
 支持基础的增删改查命令，即select、update、delete、insert语句。
-
 
 
 ## 出参
@@ -82,6 +77,3 @@ meta:
       "RowAffected": 1
   }
   ```
-
-
-

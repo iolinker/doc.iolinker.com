@@ -10,7 +10,7 @@ meta:
 
 强制终止运行中的工作流。执行到该节点时，如果还有部分APP运行中，也会强制结束。
 
-<img src="./img/stop_execution.png" alt="stop_execution" title="停止执行" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 <iframe 
     width="800" 
@@ -23,7 +23,6 @@ meta:
 ## 入参
 
 无
-
 
 
 ## 出参

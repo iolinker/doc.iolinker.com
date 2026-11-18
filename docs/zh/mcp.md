@@ -14,44 +14,43 @@ MCP Server的开发，需要组合使用MCP触发器和MCP工具两个app一起�
 
 MCP触发器会根据客户端请求的工具名称，选择对应的路由分支执行工具APP。
 
-<img src="./img/mcp_server_workflow.png" alt="image-20251112092946039" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 创建好MCP Server工作流后，可以在【工作流列表】查看到该MCP Server的地址，拿到地址后就可以在诸如Cherry Studio、Cline等第三方客户端配置MCP Server使用。
 
-<img src="./img/mcp_server_url.png" alt="image-20251112094933580" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 客户端配置MCP Server
 如下是CherryStudio跟MCP Server建立连接后查询到的工具列表：
 
-<img src="./img/mcp_server_in_cherry_studio_config.png" alt="image-20251112094627367" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 Cherry Studio跟MCP Server建立连接后，会查询工具列表，这里可以看到工具列表跟工作流中的对应关系。
 
-<img src="./img/mcp_server_in_cherry_studio.png" alt="image-20251112093638549" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 调用MCP Server
 在CherryStudio上勾选了MCP工具之后，我们请求大模型`北京天气情况`，大模型会根据工具列表，选择符合的工具取请求，并将返回的结果反馈给用户，如下图所示：
 
 
-![image-20251112095745467](./img/mcp_server_use_in_cherry_studio.png.png)
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 查看执行记录
 上面大模型调用MCP Server后，我们可以到工作流平台的【执行记录】查看到对应的执行记录详情：
 
-<img src="./img/mcp_server_execution_list.png" alt="image-20251112095842224" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
-![image-20251112095724395](/Users/shuwoom/Library/Application Support/typora-user-images/image-20251112095724395.png)
+> 历史图片引用不可用，已移除；请按文字步骤和当前界面操作。
 
 ## MCP 触发器
 
 ### 入参
 
-<img src="./img/mcp_trigger_input.png" alt="image-20251112093126418" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 #### 名称
 
 设置当前MCP Server的名称
-
 
 
 #### 调试
@@ -71,9 +70,6 @@ Cherry Studio跟MCP Server建立连接后，会查询工具列表，这里可以
     }
 }
 ```
-
-
-
 
 
 ### 出参
@@ -97,21 +93,18 @@ Cherry Studio跟MCP Server建立连接后，会查询工具列表，这里可以
 ```
 
 
-
 ## MCP 工具
 
 ### 入参
 
-<img src="./img/mcp_tool_input.png" alt="image-20251112093857593" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 #### 名称
 这里设置的是MCP工具名称，设置后，可以在第三方的客户端工具显示。
 
 
-
 #### 描述
 这里设置的是MCP工具描述，设置后，可以在第三方的客户端工具显示。
-
 
 
 #### 输入模式
@@ -145,7 +138,6 @@ Cherry Studio跟MCP Server建立连接后，会查询工具列表，这里可以
 ```
 
 
-
 ### 出参
 
 出参主要显示MCP客户端传递的工具参数，例如下面：
@@ -165,4 +157,3 @@ Cherry Studio跟MCP Server建立连接后，会查询工具列表，这里可以
   }
 ]
 ```
-

@@ -10,13 +10,12 @@ meta:
 
 通过钉钉机器人发送文本、Markdown消息。
 
-<img src="./img/send_dingding_bot_msg_menu.png" alt="send_dingding_bot_msg_menu" title="发送钉钉消息按钮" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ## 入参
 
-<img src="./img/send_dingding_bot_msg_input.png" alt="send_dingding_bot_msg_input" title="发送钉钉消息配置" style="zoom:50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 凭据
 
@@ -24,16 +23,12 @@ meta:
 
 首先需要到钉钉客户端软件创建好自定义机器人，详细参考： [创建自定义机器人](https://open.dingtalk.com/document/orgapp/custom-bot-creation-and-installation) 
 
-<img src="./img/dingding_bot_cred.png" alt="dingding_bot_cred" title="钉钉凭据选择" style="zoom:50%;" />
-
-
-
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 
 ### 提醒
 
-<img src="./img/send_feishu_bot_msg_mentioned_input.png" alt="send_feishu_bot_msg_mentioned_input" title="钉钉消息提醒" style="zoom:50%;" />
-
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 
 ### 消息类型
@@ -46,13 +41,9 @@ meta:
 选择不同的消息类型，需要输入的内容也不一样，例如Text类型就会关联文本输入框。Markdown类型支持的格式参考官方文档：https://open.dingtalk.com/document/orgapp/custom-bot-send-message-type
 
 
-
 ### 内容
 
 消息内容
-
-
-
 
 
 ## 出参
@@ -68,4 +59,3 @@ meta:
   }
 ]
 ```
-

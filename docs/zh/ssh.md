@@ -10,11 +10,11 @@ meta:
 
 SSH远程登录机器，并执行Shell命令。
 
-<img src="./img/ssh.png" alt="ssh" title="ssh远程执行配置" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ## 入参
 
-<img src="./img/ssh_input_parameter.png" alt="ssh_input_parameter" title="ssh远程执行配置" style="zoom: 50%;" />
+> 历史界面图片在复核并重拍前不展示，请按当前界面核对操作。
 
 ### 凭据
 
@@ -25,8 +25,7 @@ SSH远程登录机器，并执行Shell命令。
 - 用户：登录账号。
 - 密码：登录密码。
 
-<img src="./img/ssh-input-parameter-credential.png" alt="ssh-input-parameter-credential" title="ssh远程执行凭据" style="zoom:50%;" />
-
+> 原截图含凭据、令牌或应用标识，已停止公开。请在对应平台自行创建秘密并填入本地配置。
 
 
 ### 命令行
@@ -38,10 +37,6 @@ ps -ef
 ```
 
 
-
 ## 出参
 
 shell命令输出的字符串。
-
-
-

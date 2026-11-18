@@ -12,21 +12,19 @@ The system supports single-approver (OR-approval) and multi-approver (AND-approv
 
 A green output indicates approval, red indicates disapproval, and a gray output indicates a timeout.
 
-<img src="./img/approval.png" alt="image-20250704092703706" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 Personal pending approval data can be viewed under **User Tasks** in the **Approval** section, with support for one-click batch operations.
 
-<img src="./img/apprval_user_list.png" alt="image-20250703200210855" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 By clicking on the approval details, you can view the complete content and actions of the approval.
 
-<img src="./img/approval_detail.png" alt="image-20250704092802071" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
-<img src="./img/done_approval_list.png" alt="image-20250704092851826" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 <iframe 
@@ -38,17 +36,13 @@ By clicking on the approval details, you can view the complete content and actio
 </iframe>
 
 
-
 ## Input
 
 ### Approval Channels
 
 By default, Web is mandatory, and Telegram is optional. If you select Telegram, you will need to configure the associated bot credentials (Token), which must be created in the **App Development > Credential** section.
 
-<img src="./img/approval_input_channel.png" alt="image-20241007192810231" style="zoom:50%;" />
-
-
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Name
@@ -56,19 +50,16 @@ By default, Web is mandatory, and Telegram is optional. If you select Telegram, 
 Approval name.
 
 
-
 ### Content
 
 Approval content.
-
 
 
 ### Members
 
 Approval members. This section will display a list of accounts, supporting fuzzy search. If Telegram approval is enabled, you need to configure the users' Telegram IDs in the user list; otherwise, messages cannot be sent to Telegram users.
 
-<img src="./img/apprval_user_list.png" alt="image-20250703200210855" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ### Type
@@ -79,15 +70,13 @@ Supports two common approval types:
 - **Co-signature**: All approvers must agree for the process to move to the next node. If any approver rejects, the approval request will be denied, and the process will end.
 
 
-
 ### Timeout
 
 Defaults to 0, indicating no timeout limit. If set to greater than 0, if the approval time exceeds the specified duration, the approval process will end and flow to the timeout branch.
 
 Users can set the response actions for the timeout here.
 
-<img src="./img/approval_input_timeout.png" alt="image-20241007193219195" style="zoom:50%;" />
-
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 
 ## Output
@@ -139,4 +128,3 @@ Below is an example of an output result:
     }
 ]
 ```
-

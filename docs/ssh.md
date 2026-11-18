@@ -2,11 +2,11 @@
 
 Allows remote login to a machine via SSH and execution of shell commands.
 
-<img src="./img/ssh_menu.png" alt="image-20241013094509272" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 ## Input
 
-<img src="./img/ssh_input.png" alt="image-20241013094615223" style="zoom:50%;" />
+> Historical interface images are withheld pending review and recapture. Check operations against the current interface.
 
 - ### Credentials
 
@@ -17,8 +17,7 @@ Allows remote login to a machine via SSH and execution of shell commands.
   - **User**: The login username.
   - **Password**: The login password.
 
-<img src="./img/ssh_cred.png" alt="image-20241013094727963" style="zoom:50%;" />
-
+> The original image contained a credential, token or application identifier and is excluded from publication. Create and enter your own secret in the local configuration.
 
 
 ### Command Line
@@ -30,10 +29,6 @@ ps -ef
 ```
 
 
-
 ## Output
 
 The string output from the shell command.
-
-
-
