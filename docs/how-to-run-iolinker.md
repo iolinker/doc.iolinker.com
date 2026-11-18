@@ -77,11 +77,11 @@ The current binary executable file supports direct execution on the following sy
   Usage: IOLinker
   Flags:
     -d, --domain  Set visit domain, default is localhost. Usage: ./iolinker -d localhost
-    -e, --enable https    Enable https, default is false. Usage: ./iolinker -e true
+    -e, --enable-https    Enable https, default is false. Usage: ./iolinker -e
     -h, --help    help for IOLinker
-    -c, --https cert file Set https cert file location. Usage: ./iolinker -c ./sercer.crt
-    -k, --https key file  Set https key file location. Usage: ./iolinker -k ./sercer.key
-    -p, --listen port     Set server listen port, default is 80. Usage: ./iolinker -p 80
+    -c, --https-cert Set https cert file location. Usage: ./iolinker -c ./server.crt
+    -k, --https-key  Set https key file location. Usage: ./iolinker -k ./server.key
+    -p, --port     Set server listen port, default is 80. Usage: ./iolinker -p 80
   
 
 
