@@ -4,7 +4,7 @@ title: Conversations and sessions
 
 # Conversations and sessions
 
-Use the agent workspace for tasks requiring model reasoning and tool collaboration. Use workflow mode for explicit, repeatable execution. Switching modes does not change existing data.
+Use the agent workspace for open-ended tasks that require model reasoning and tools. Agents dynamically plan and adjust each next step from goals, context and tool results, and can invoke workflows as tools. Workflow mode follows predefined nodes, connections and branches for repeatable, controlled execution. Switching modes does not change existing data.
 
 ## Start a conversation
 

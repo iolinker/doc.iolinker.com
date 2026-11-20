@@ -3,7 +3,7 @@ layout: home
 hero:
   name: IOLINKER / DOCUMENTATION
   text: From a task to an inspectable execution path.
-  tagline: Learn the agent workspace, build repeatable workflows, connect tools and data, and keep people in the loop.
+  tagline: Learn how agents adapt plans to context and tool results, invoke workflows as tools, and use predefined execution paths to combine flexibility with control.
   actions:
     - theme: brand
       text: Complete your first task

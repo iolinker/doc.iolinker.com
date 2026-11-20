@@ -3,7 +3,7 @@ layout: home
 hero:
   name: IOLINKER / 文档中心
   text: 从一句任务描述，走到可检查的执行路径。
-  tagline: 学会使用 Agent 工作台，编排可重复的工作流，接入工具与数据，也为人工确认留出位置。
+  tagline: 了解 Agent 如何根据上下文和工具结果动态规划，如何将工作流作为工具调用，以及如何用预定义流程控制执行，让自动化兼顾灵活与可控。
   actions:
     - theme: brand
       text: 完成第一个任务
