@@ -1,0 +1,1 @@
+import{_ as o,o as a,c as t,a2 as r}from"./chunks/framework.C-si7TFR.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"local-cmd.md","filePath":"local-cmd.md"}'),c={name:"local-cmd.md"};function n(l,e,i,s,d,m){return a(),t("div",null,[...e[0]||(e[0]=[r("",10)])])}const _=o(c,[["render",n]]);export{u as __pageData,_ as default};

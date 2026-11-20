@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a2 as r}from"./chunks/framework.C-si7TFR.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"webhook.md","filePath":"webhook.md"}'),n={name:"webhook.md"};function i(s,e,h,l,c,p){return a(),o("div",null,[...e[0]||(e[0]=[r("",8)])])}const w=t(n,[["render",i]]);export{d as __pageData,w as default};

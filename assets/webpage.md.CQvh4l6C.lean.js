@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a2 as r}from"./chunks/framework.C-si7TFR.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"webpage.md","filePath":"webpage.md"}'),n={name:"webpage.md"};function i(c,e,p,s,l,d){return a(),o("div",null,[...e[0]||(e[0]=[r("",9)])])}const m=t(n,[["render",i]]);export{h as __pageData,m as default};

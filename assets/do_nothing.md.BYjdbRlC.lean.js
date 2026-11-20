@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,a2 as n}from"./chunks/framework.C-si7TFR.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"do_nothing.md","filePath":"do_nothing.md"}'),r={name:"do_nothing.md"};function i(p,t,d,h,u,s){return a(),o("div",null,[...t[0]||(t[0]=[n("",7)])])}const _=e(r,[["render",i]]);export{l as __pageData,_ as default};
